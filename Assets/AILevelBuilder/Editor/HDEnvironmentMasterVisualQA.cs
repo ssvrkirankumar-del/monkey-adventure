@@ -379,7 +379,7 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
                 lines.AddRange(_audit.Warnings.Select(x => "- " + x));
             }
 
-            GUIUtility.systemCopyBuffer = string.Join(Environment.NewLine, lines);
+            GUIUtility.systemCopyBuffer = string.Join(System.Environment.NewLine, lines);
             EditorUtility.DisplayDialog(
                 "HD Master Visual QA",
                 "All QA issues copied to clipboard.",
@@ -1115,7 +1115,7 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
             foreach (var c in r.Categories)
                 lines.Add($"[{c.Score}/100] {c.Name} | Found={c.Found} | Issues={c.Issues} | {c.Notes}");
 
-            return string.Join(Environment.NewLine, lines);
+            return string.Join(System.Environment.NewLine, lines);
         }
 
         private static void SaveAuditReport(AuditResult r)
