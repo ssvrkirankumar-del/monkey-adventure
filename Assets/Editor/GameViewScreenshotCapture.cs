@@ -56,7 +56,7 @@ namespace MonkeyAdventure.EditorTools
                 Camera cam = Camera.main;
                 if (cam == null)
                 {
-                    cam = UnityEngine.Object.FindFirstObjectByType<Camera>();
+                    cam = UnityEngine.Object.FindAnyObjectByType<Camera>();
                 }
 
                 if (cam == null)

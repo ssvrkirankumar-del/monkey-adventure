@@ -415,7 +415,7 @@ namespace MonkeyAdventure.EditorTools
             }
 
             // Find all tree objects in the scene
-            GameObject[] allObjects = GameObject.FindObjectsByType<GameObject>(FindObjectsSortMode.None);
+            GameObject[] allObjects = UnityEngine.Object.FindObjectsByType<GameObject>(FindObjectsInactive.Include);
 
             foreach (var go in allObjects)
             {
@@ -744,7 +744,7 @@ namespace MonkeyAdventure.EditorTools
         {
             // 1. Sun Directional Light
             Light sunLight = null;
-            Light[] lights = GameObject.FindObjectsByType<Light>(FindObjectsSortMode.None);
+            Light[] lights = UnityEngine.Object.FindObjectsByType<Light>(FindObjectsInactive.Include);
             foreach (var l in lights)
             {
                 if (l.type == LightType.Directional)

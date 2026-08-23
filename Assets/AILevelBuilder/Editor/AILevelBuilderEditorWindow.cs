@@ -31,7 +31,6 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
         private ScenePreviewMagentaAuditReport _lastSceneAuditReport = null;
         private ActiveHDAuditReport _lastActiveAuditReport = null;
         private FullSceneAuditReport _lastFullSceneReport = null;
-        private HDDiscoveryReport _lastDiscoveryReport = null;
         private HDJungleDiscoveryReport _lastJungleReport = null;
         private Vector2 _discoveryScrollPos;
         private bool _showDiscoveryDetails = true;

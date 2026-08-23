@@ -659,7 +659,7 @@ namespace MonkeyAdventure.EditorTools
             }
 
             // 2. Camera presence
-            Camera cam = Camera.main ?? UnityEngine.Object.FindFirstObjectByType<Camera>();
+            Camera cam = Camera.main ?? UnityEngine.Object.FindAnyObjectByType<Camera>();
             if (cam != null)
             {
                 Debug.Log($"<color=green>✓ Gameplay Camera verified: {cam.name} at {cam.transform.position}</color>");
@@ -670,7 +670,7 @@ namespace MonkeyAdventure.EditorTools
             }
 
             // 3. Terrain & Collider presence
-            Terrain t = UnityEngine.Object.FindFirstObjectByType<Terrain>();
+            Terrain t = UnityEngine.Object.FindAnyObjectByType<Terrain>();
             if (t != null && t.terrainData != null)
             {
                 Debug.Log($"<color=green>✓ 3D Jungle Terrain verified: size={t.terrainData.size}, layers={t.terrainData.terrainLayers.Length}</color>");

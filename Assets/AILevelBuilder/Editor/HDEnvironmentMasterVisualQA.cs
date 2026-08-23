@@ -74,7 +74,6 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
         private int _seed = 1337;
         private float _safetyMargin = 3.5f;
         private int _maxObjects = 300;
-        private float _outerBand = 0.20f;
         private bool _useOnlyHDAssets = true;
         private bool _includeGroundVariation = true;
         private bool _includeWaterEdge = true;

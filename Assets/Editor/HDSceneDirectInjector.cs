@@ -286,7 +286,7 @@ namespace MonkeyAdventure.EditorTools
         {
             // Find all old primitive tree/rock/plant objects and disable their placeholder MeshRenderers
             // NEVER disable colliders, scripts, or gameplay objects
-            GameObject[] allObjects = GameObject.FindObjectsByType<GameObject>(FindObjectsSortMode.None);
+            GameObject[] allObjects = UnityEngine.Object.FindObjectsByType<GameObject>(FindObjectsInactive.Include);
             foreach (var go in allObjects)
             {
                 string lower = go.name.ToLower();
@@ -315,7 +315,7 @@ namespace MonkeyAdventure.EditorTools
 
         private static void UpgradeTerrainPlatforms(CinematicMaterials mats)
         {
-            GameObject[] allObjects = GameObject.FindObjectsByType<GameObject>(FindObjectsSortMode.None);
+            GameObject[] allObjects = UnityEngine.Object.FindObjectsByType<GameObject>(FindObjectsInactive.Include);
             foreach (var go in allObjects)
             {
                 string lower = go.name.ToLower();
@@ -444,7 +444,7 @@ namespace MonkeyAdventure.EditorTools
             GameObject player = GameObject.FindWithTag("Player");
             if (player == null)
             {
-                var allObjects = GameObject.FindObjectsByType<GameObject>(FindObjectsSortMode.None);
+                var allObjects = UnityEngine.Object.FindObjectsByType<GameObject>(FindObjectsInactive.Include);
                 foreach (var go in allObjects)
                 {
                     string n = go.name.ToLowerInvariant();
@@ -543,7 +543,7 @@ namespace MonkeyAdventure.EditorTools
                 palmPrefab = HDPalmTreeBuilder.CreateOrUpdateHDPalmPrefab();
             }
 
-            GameObject[] allObjects = GameObject.FindObjectsByType<GameObject>(FindObjectsSortMode.None);
+            GameObject[] allObjects = UnityEngine.Object.FindObjectsByType<GameObject>(FindObjectsInactive.Include);
             foreach (var go in allObjects)
             {
                 string lower = go.name.ToLower();
@@ -592,7 +592,7 @@ namespace MonkeyAdventure.EditorTools
             GameObject rock1Fbx = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/FlipGameDev/Terrain&GrassPack/Art/Meshes/Rocks/Rock_1.fbx");
             GameObject rock3Fbx = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/FlipGameDev/Terrain&GrassPack/Art/Meshes/Rocks/Rock_3.fbx") ?? rock1Fbx;
 
-            GameObject[] allObjects = GameObject.FindObjectsByType<GameObject>(FindObjectsSortMode.None);
+            GameObject[] allObjects = UnityEngine.Object.FindObjectsByType<GameObject>(FindObjectsInactive.Include);
             foreach (var go in allObjects)
             {
                 string lower = go.name.ToLower();
@@ -918,7 +918,7 @@ namespace MonkeyAdventure.EditorTools
         private static void ConfigureAtmosphereAndPostProcessing()
         {
             // 1. Sun
-            Light[] lights = GameObject.FindObjectsByType<Light>(FindObjectsSortMode.None);
+            Light[] lights = UnityEngine.Object.FindObjectsByType<Light>(FindObjectsInactive.Include);
             Light sunLight = null;
             foreach (var l in lights)
             {

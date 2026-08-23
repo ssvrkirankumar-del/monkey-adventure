@@ -21,7 +21,6 @@ namespace MonkeyAdventure.EditorTools
     {
         private Vector2 scrollPos;
         private string auditSummary = "Click 'Run Dependency & Foundation Scan' to analyze.";
-        private bool scanPerformed = false;
 
         private List<string> protectedGameplayList = new List<string>();
         private List<string> placeholderRenderersList = new List<string>();
@@ -212,7 +211,7 @@ namespace MonkeyAdventure.EditorTools
             Scene scene = SceneManager.GetActiveScene();
             int disabledCount = 0;
 
-            GameObject[] allObjects = GameObject.FindObjectsByType<GameObject>(FindObjectsSortMode.None);
+            GameObject[] allObjects = UnityEngine.Object.FindObjectsByType<GameObject>(FindObjectsInactive.Include);
             foreach (var go in allObjects)
             {
                 string lower = go.name.ToLowerInvariant();

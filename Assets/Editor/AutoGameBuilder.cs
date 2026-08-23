@@ -618,7 +618,9 @@ namespace MonkeyAdventure.EditorTools
                 ShowProgress("Baking Navigation Mesh...", 0.93f);
                 try
                 {
+#pragma warning disable CS0618
                     UnityEditor.AI.NavMeshBuilder.BuildNavMesh();
+#pragma warning restore CS0618
                     Debug.Log("[AutoGameBuilder] NavMesh baked successfully for Level 01.");
                 }
                 catch (Exception ex)

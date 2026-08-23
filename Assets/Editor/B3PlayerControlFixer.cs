@@ -69,7 +69,7 @@ namespace MonkeyAdventure.EditorTools
                 }
 
                 // 2. Find any old 2D / placeholder player objects that currently have player controllers or Player tag
-                var allGameObjects = UnityEngine.Object.FindObjectsByType<GameObject>(FindObjectsSortMode.None);
+                var allGameObjects = UnityEngine.Object.FindObjectsByType<GameObject>(FindObjectsInactive.Include);
                 foreach (var go in allGameObjects)
                 {
                     if (go == monkeyB3) continue;
@@ -171,7 +171,7 @@ namespace MonkeyAdventure.EditorTools
                 mpc.enabled = true;
 
                 // Find Main Camera
-                Camera mainCam = Camera.main ?? UnityEngine.Object.FindFirstObjectByType<Camera>();
+                Camera mainCam = Camera.main ?? UnityEngine.Object.FindAnyObjectByType<Camera>();
                 if (mainCam != null)
                 {
                     SerializedObject mpcSO = new SerializedObject(mpc);

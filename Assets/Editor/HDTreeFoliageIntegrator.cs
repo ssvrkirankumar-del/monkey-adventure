@@ -31,7 +31,6 @@ namespace MonkeyAdventure.EditorTools
         private const string PATH_FERN = "Assets/Art/Environment/HD/Plants/HD_Plant_JungleFern_01.prefab";
 
         private string _statusMessage = "Ready. Click 'Apply Phase 3 Tree & Foliage Pass'.";
-        private MessageType _statusMessageType = MessageType.Info;
 
         [MenuItem("Window/Monkey Adventure/Phase 3 — Apply Tree & Foliage Upgrade (Level 01)", false, 120)]
         public static void ApplyTreeFoliagePassCommandLine()
@@ -57,7 +56,6 @@ namespace MonkeyAdventure.EditorTools
             if (envRoot == null)
             {
                 _statusMessage = "Could not find '[--- 01_ENVIRONMENT ---]' in the active scene.";
-                _statusMessageType = MessageType.Error;
                 Debug.LogError(_statusMessage);
                 return;
             }
@@ -235,7 +233,6 @@ namespace MonkeyAdventure.EditorTools
             EditorSceneManager.SaveScene(SceneManager.GetActiveScene());
 
             _statusMessage = $"↺ Reverted Tree & Foliage upgrade for {revertedCount} scene objects.";
-            _statusMessageType = MessageType.Warning;
             Debug.Log($"[HDTreeFoliageIntegrator] {_statusMessage}");
         }
 
