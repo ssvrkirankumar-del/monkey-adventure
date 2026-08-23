@@ -1,0 +1,134 @@
+Category,Asset_Name,Asset_Path,Classification,Safety_Action,Notes
+Script_Player,MonkeyPlayerController.cs,Assets/Scripts/Player/MonkeyPlayerController.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,CharacterController movement jump roll physics
+Script_Player,MonkeySetupBinder.cs,Assets/Scripts/Player/MonkeySetupBinder.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Player rig binding and camera mounting
+Script_Player,PlayerHealth.cs,Assets/Scripts/Player/PlayerHealth.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Health damage respawn events
+Script_Camera,ThirdPersonCamera.cs,Assets/Scripts/Camera/ThirdPersonCamera.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Smooth third person camera follow
+Script_Combat,GuardianCombat.cs,Assets/Scripts/Combat/GuardianCombat.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Melee combos ground smash projectile fire
+Script_Combat,MagicProjectile.cs,Assets/Scripts/Combat/MagicProjectile.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Projectile physics and splash damage
+Script_Combat,IDamageable.cs,Assets/Scripts/Combat/IDamageable.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Universal damage interface
+Script_Combat,EnemyTarget.cs,Assets/Scripts/Combat/EnemyTarget.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Aim lock-on target
+Script_Combat,BreakableRelic.cs,Assets/Scripts/Combat/BreakableRelic.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Smashable relic item drops
+Script_AI,EnemyAI.cs,Assets/Scripts/AI/EnemyAI.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Enemy patrol aggro attack state machine
+Script_AI,WildlifeAI.cs,Assets/Scripts/AI/WildlifeAI.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Ambient wildlife wander and flee
+Script_Boss,AlphaJaguarBoss.cs,Assets/Scripts/Bosses/AlphaJaguarBoss.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Boss AI Act 1
+Script_Boss,StoneGolemBoss.cs,Assets/Scripts/Bosses/StoneGolemBoss.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Boss AI Act 2
+Script_Boss,RiverSerpentBoss.cs,Assets/Scripts/Bosses/RiverSerpentBoss.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Boss AI Act 3
+Script_Boss,ShadowBeastBoss.cs,Assets/Scripts/Bosses/ShadowBeastBoss.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Boss AI Act 4
+Script_Boss,FinalBossCorruptor.cs,Assets/Scripts/Bosses/FinalBossCorruptor.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Final Boss AI Act 5
+Script_Puzzle,RuneSwitch.cs,Assets/Scripts/Puzzles/RuneSwitch.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Rune puzzle switch hit trigger
+Script_Puzzle,AncientDoor.cs,Assets/Scripts/Puzzles/AncientDoor.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,3-rune ancient door barrier
+Script_Environment,Checkpoint.cs,Assets/Scripts/Environment/Checkpoint.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Checkpoint respawn trigger
+Script_Environment,LevelExitPortal.cs,Assets/Scripts/Environment/LevelExitPortal.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Level progression exit trigger
+Script_Environment,MovingPlatform.cs,Assets/Scripts/Environment/MovingPlatform.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Waypoint kinematic moving platform
+Script_Environment,FloatingIsland.cs,Assets/Scripts/Environment/FloatingIsland.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Bobbing floating island
+Script_Environment,FloatingLog.cs,Assets/Scripts/Environment/FloatingLog.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,River floating log platform
+Script_Environment,MagicUpdraft.cs,Assets/Scripts/Environment/MagicUpdraft.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Vertical wind updraft trigger
+Script_Environment,SafeZone.cs,Assets/Scripts/Environment/SafeZone.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Hazard safe zone volume
+Script_Environment,WaterCurrent.cs,Assets/Scripts/Environment/WaterCurrent.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,River water velocity vector
+Script_Mechanic,VineClimb.cs,Assets/Scripts/Mechanics/VineClimb.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Vertical vine climb mechanic
+Script_Hazard,FireHazard.cs,Assets/Scripts/Hazards/FireHazard.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Periodic flame burst damage area
+Script_Hazard,ToxicMushroom.cs,Assets/Scripts/Hazards/ToxicMushroom.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Spore cloud emitter poison hazard
+Script_Hazard,Extinguisher.cs,Assets/Scripts/Collectibles/Extinguisher.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Fire hazard extinguishing mechanic
+Script_Hazard,LightAura.cs,Assets/Scripts/Hazards/LightAura.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Protective light aura mechanic
+Script_Collectible,CollectibleItem.cs,Assets/Scripts/Collectibles/CollectibleItem.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Banana coin rune collectible trigger
+Script_Monetization,CurrencyManager.cs,Assets/Scripts/Monetization/CurrencyManager.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Currency balance manager
+Script_Monetization,MonetizationManager.cs,Assets/Scripts/Monetization/MonetizationManager.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Store and in-app currency system
+Script_Progression,LevelProgressionManager.cs,Assets/Scripts/Progression/LevelProgressionManager.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Level unlocked star ratings save state
+Script_Progression,CampaignLevelDirector.cs,Assets/Scripts/Progression/CampaignLevelDirector.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Campaign level index sequence
+Script_Audio,AudioManager.cs,Assets/Scripts/Audio/AudioManager.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,BGM SFX audio pooling
+Script_Audio,Sound.cs,Assets/Scripts/Audio/Sound.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Sound asset data container
+Script_Core,GameManager.cs,Assets/Scripts/Core/GameManager.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Game state pause level orchestration
+Script_Core,GameAssetInitializer.cs,Assets/Scripts/Core/GameAssetInitializer.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Runtime asset binder
+Script_Tutorial,TutorialManager.cs,Assets/Scripts/Tutorial/TutorialManager.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Tutorial stage overlay
+Script_Tutorial,TutorialTrigger.cs,Assets/Scripts/Tutorial/TutorialTrigger.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Contextual tutorial trigger
+Script_UI,MobileButtonLinker.cs,Assets/Scripts/UI/MobileButtonLinker.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Mobile touchscreen input router
+Script_UI,ReviveUIManager.cs,Assets/Scripts/UI/ReviveUIManager.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Revive prompt and ad timer UI
+Script_Skin,EvolutionSkinManager.cs,Assets/Scripts/Skins/EvolutionSkinManager.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Monkey evolution tier visual switcher
+Script_Endless,EndlessLevelGenerator.cs,Assets/Scripts/Endless/EndlessLevelGenerator.cs,REQUIRED GAMEPLAY,LOCK & PRESERVE,Endless procedural runner mode
+Prefab_Combat,MagicProjectile.prefab,Assets/Prefabs/MagicProjectile.prefab,REQUIRED GAMEPLAY,LOCK & PRESERVE,Energy blast projectile prefab
+Scene,Level01_Awakening.unity,Assets/Scenes/Level01_Awakening.unity,REQUIRED GAMEPLAY,LOCK & PRESERVE,Canonical Level 01 Scene
+Scene,Level10_AlphaJaguarBoss.unity,Assets/Scenes/Level10_AlphaJaguarBoss.unity,REQUIRED GAMEPLAY,LOCK & PRESERVE,Boss Level 10 Scene
+Scene,Level20_StoneGolemBoss.unity,Assets/Scenes/Level20_StoneGolemBoss.unity,REQUIRED GAMEPLAY,LOCK & PRESERVE,Boss Level 20 Scene
+Scene,Level30_RiverSerpentBoss.unity,Assets/Scenes/Level30_RiverSerpentBoss.unity,REQUIRED GAMEPLAY,LOCK & PRESERVE,Boss Level 30 Scene
+Scene,Level40_ShadowBeastBoss.unity,Assets/Scenes/Level40_ShadowBeastBoss.unity,REQUIRED GAMEPLAY,LOCK & PRESERVE,Boss Level 40 Scene
+Scene,Level50_FinalBossCorruptor.unity,Assets/Scenes/Level50_FinalBossCorruptor.unity,REQUIRED GAMEPLAY,LOCK & PRESERVE,Boss Level 50 Scene
+VFX,VFX_AncientDoor_Magic.prefab,Assets/Art/VFX/VFX_AncientDoor_Magic.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Door opening rune particle burst
+VFX,VFX_BossDeath_Burst.prefab,Assets/Art/VFX/VFX_BossDeath_Burst.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Boss defeat particle explosion
+VFX,VFX_Checkpoint_Beam.prefab,Assets/Art/VFX/VFX_Checkpoint_Beam.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Checkpoint light pillar particle
+VFX,VFX_EnergyBlast_Muzzle.prefab,Assets/Art/VFX/VFX_EnergyBlast_Muzzle.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Combat blast muzzle flash
+VFX,VFX_Evolution_Transformation.prefab,Assets/Art/VFX/VFX_Evolution_Transformation.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Evolution aura shockwave
+VFX,VFX_FireHazard_Flames.prefab,Assets/Art/VFX/VFX_FireHazard_Flames.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Flame column particle
+VFX,VFX_GroundSmash_Shockwave.prefab,Assets/Art/VFX/VFX_GroundSmash_Shockwave.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Ground smash impact ring
+VFX,VFX_Guardian_Aura.prefab,Assets/Art/VFX/VFX_Guardian_Aura.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Passive guardian ambient aura
+VFX,VFX_Impact_Sparks.prefab,Assets/Art/VFX/VFX_Impact_Sparks.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Melee hit spark burst
+VFX,VFX_Poison_SporeCloud.prefab,Assets/Art/VFX/VFX_Poison_SporeCloud.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Mushroom toxic spore cloud
+VFX,VFX_Portal_Vortex.prefab,Assets/Art/VFX/VFX_Portal_Vortex.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Exit portal swirl vortex
+VFX,VFX_Projectile_Trail.prefab,Assets/Art/VFX/VFX_Projectile_Trail.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Magic projectile ribbon trail
+VFX,VFX_Rune_ActivationGlow.prefab,Assets/Art/VFX/VFX_Rune_ActivationGlow.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,Rune pedestal active glow
+VFX,VFX_WaterSplash_Mist.prefab,Assets/Art/VFX/VFX_WaterSplash_Mist.prefab,REQUIRED VISUAL,KEEP & OPTIMIZE,River splash water mist
+Material,Mat_Ancient_Door.mat,Assets/Materials/Mat_Ancient_Door.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Ancient door rune barrier material
+Material,Mat_Banana_Food.mat,Assets/Materials/Mat_Banana_Food.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Golden banana collectible material
+Material,Mat_Breakable_Relic.mat,Assets/Materials/Mat_Breakable_Relic.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Breakable pottery material
+Material,Mat_Checkpoint_Active.mat,Assets/Materials/Mat_Checkpoint_Active.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Checkpoint active pillar glow
+Material,Mat_Climbable_Vine.mat,Assets/Materials/Mat_Climbable_Vine.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Climbable jungle vine material
+Material,Mat_Fire_Hazard.mat,Assets/Materials/Mat_Fire_Hazard.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Fire hazard lava flame glow
+Material,Mat_Gateway_Portal.mat,Assets/Materials/Mat_Gateway_Portal.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Exit portal vortex material
+Material,Mat_Gold_Coin.mat,Assets/Materials/Mat_Gold_Coin.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Ancient gold coin material
+Material,Mat_Jungle_Ground.mat,Assets/Materials/Mat_Jungle_Ground.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Terrain ground PBR material
+Material,Mat_Magic_Projectile.mat,Assets/Materials/Mat_Magic_Projectile.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Magic energy blast material
+Material,Mat_Player_Monkey.mat,Assets/Materials/Mat_Player_Monkey.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Player monkey base material
+Material,Mat_Predator_Enemy.mat,Assets/Materials/Mat_Predator_Enemy.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Predator enemy skin material
+Material,Mat_Rune_Active.mat,Assets/Materials/Mat_Rune_Active.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Active rune glowing emission
+Material,Mat_Rune_Inactive.mat,Assets/Materials/Mat_Rune_Inactive.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Inactive stone rune pedestal
+Material,Mat_Toxic_Mushroom.mat,Assets/Materials/Mat_Toxic_Mushroom.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Poison mushroom bio glow
+Material,Mat_Water_Stream.mat,Assets/Materials/Mat_Water_Stream.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,River water flowing material
+Material,Mat_Wood_Platform.mat,Assets/Materials/Mat_Wood_Platform.mat,REQUIRED VISUAL,KEEP & OPTIMIZE,Wood jump platform material
+Setting,URP_GlobalSettings,Assets/UniversalRenderPipelineGlobalSettings.asset,REQUIRED VISUAL,KEEP & OPTIMIZE,Universal Render Pipeline Global Config
+Setting,DefaultVolumeProfile,Assets/DefaultVolumeProfile.asset,REQUIRED VISUAL,KEEP & OPTIMIZE,Post-Processing Volume Profile
+HD_Tree,Oak Tree.prefab,Assets/Procedural Tree/Prefabs/Oak Tree.prefab,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,Photorealistic 3D scanned bark and leaf canopy
+HD_Tree,Magnolia Tree.prefab,Assets/Procedural Tree/Prefabs/Magnolia Tree.prefab,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,Photorealistic broadleaf canopy tree
+HD_Tree,Elm Tree.prefab,Assets/Procedural Tree/Prefabs/Elm Tree.prefab,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,Photorealistic tall silhouette tree
+HD_Tree,Ash Tree.prefab,Assets/Procedural Tree/Prefabs/Ash Tree.prefab,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,Photorealistic dense jungle tree
+HD_Rock,Rock_1.fbx to Rock_12.fbx,Assets/FlipGameDev/Terrain&GrassPack/Art/Meshes/Rocks/,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,3D scanned photogrammetry rocks and cliffs
+HD_Texture,Road_Lieves_1_PBR,Assets/FlipGameDev/Terrain&GrassPack/Art/Textures/Terrain_Textures/,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,4K PBR leaf-littered soil path texture
+HD_Texture,Grass_Leaves_1_PBR,Assets/FlipGameDev/Terrain&GrassPack/Art/Textures/Terrain_Textures/,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,4K PBR vibrant jungle moss bank texture
+HD_Texture,Cliffwall_PBR,Assets/FlipGameDev/Terrain&GrassPack/Art/Textures/Terrain_Textures/,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,4K PBR rock cliff face texture
+HD_Foliage,Brake_Ferns_Billboard,Assets/FlipGameDev/Terrain&GrassPack/Art/Textures/Grass_Billboard/,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,4K normal-mapped tropical fern billboards
+HD_Foliage,Grass_1_Billboard,Assets/FlipGameDev/Terrain&GrassPack/Art/Textures/Grass_Billboard/,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,4K normal-mapped jungle grass billboards
+HD_Foliage,Orchid_Billboard,Assets/FlipGameDev/Terrain&GrassPack/Art/Textures/Grass_Billboard/,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,4K normal-mapped wildflower billboards
+HD_Understory,Supercyan Forest Prefabs,Assets/Supercyan Free Forest Sample/Prefabs/High Quality/,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,High-quality grass patches mushrooms stones
+HD_Character,Squirrel_URP.prefab,Assets/Furry Squirrel/Prefab/Squirrel_URP.prefab,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,3D animal fur geometry rigged player model candidate
+HD_Wildlife,Animals_FREE,Assets/ithappy/Animals_FREE/,APPROVED HD ASSET,ACTIVE PRODUCTION ASSET,3D wild animals (deer boar stag etc)
+Pack_Optional,Polytope Studio,Assets/Polytope Studio/,OPTIONAL,PRESERVE / SECONDARY USE,Stylized low-poly environment and village pack
+Pack_Optional,Low Poly Environment Kit,Assets/Low Poly Environment Starter Kit/,OPTIONAL,PRESERVE / SECONDARY USE,Stylized low-poly props and vegetation kit
+Pack_Optional,CoolWorks Studio,Assets/CoolWorks_Studio/,OPTIONAL,PRESERVE / SECONDARY USE,Carpentry tools 3D meshes
+Pack_Optional,Rainy VFX,Assets/Rainy VFX/,OPTIONAL,PRESERVE / SECONDARY USE,Weather particle effects
+Duplicate_Scene,Level01_Awakening.unity,Assets/Level01_Awakening.unity,DUPLICATE,SAFE TO ARCHIVE,Redundant copy of Assets/Scenes/Level01_Awakening.unity
+Duplicate_Folder,scene,Assets/scene/,DUPLICATE,SAFE TO DELETE,Empty orphaned directory
+Placeholder_Char,Monkey_Base.prefab,Assets/Art/Characters/Monkey_Base.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive sphere/capsule/cylinder character hierarchy
+Placeholder_Char,Monkey_Guardian.prefab,Assets/Art/Characters/Monkey_Guardian.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive skin variation
+Placeholder_Char,Monkey_DivineGuardian.prefab,Assets/Art/Characters/Monkey_DivineGuardian.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive skin variation
+Placeholder_Char,Monkey_PrimalTitan.prefab,Assets/Art/Characters/Monkey_PrimalTitan.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive skin variation
+Placeholder_Tree,Tree_JungleCanopy.prefab,Assets/Art/Environment/Trees/Tree_JungleCanopy.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive green sphere canopy and cylinder trunk
+Placeholder_Tree,Tree_CoconutPalm.prefab,Assets/Art/Environment/Trees/Tree_CoconutPalm.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive cylinder trunk and segmented fronds
+Placeholder_Rock,Rock_MossyBoulder.prefab,Assets/Art/Environment/Rocks/Rock_MossyBoulder.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive sphere mesh with vertex color
+Placeholder_Rock,Rock_CliffFormation.prefab,Assets/Art/Environment/Rocks/Rock_CliffFormation.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive box mesh cliff blockout
+Placeholder_Rock,Rock_FloatingIsland.prefab,Assets/Art/Environment/Rocks/Rock_FloatingIsland.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive cone island blockout
+Placeholder_Plant,Plant_JungleFern.prefab,Assets/Art/Environment/Plants/Plant_JungleFern.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive diamond quad fern
+Placeholder_Plant,Plant_TropicalBush.prefab,Assets/Art/Environment/Plants/Plant_TropicalBush.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive sphere bush cluster
+Placeholder_Plant,Plant_GlowingMushroom.prefab,Assets/Art/Environment/Plants/Plant_GlowingMushroom.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive mushroom cap and stem
+Placeholder_Plant,Plant_HibiscusFlower.prefab,Assets/Art/Environment/Plants/Plant_HibiscusFlower.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive cone flower
+Placeholder_Enemy,Enemy_JunglePredator.prefab,Assets/Art/Enemies/Enemy_JunglePredator.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive capsule predator body
+Placeholder_Enemy,Enemy_ToxicReptile.prefab,Assets/Art/Enemies/Enemy_ToxicReptile.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive capsule reptile body
+Placeholder_Enemy,Enemy_WildBoar.prefab,Assets/Art/Enemies/Enemy_WildBoar.prefab,LOW-POLY PLACEHOLDER,DISABLE RENDERERS ONLY,Primitive capsule boar body
+Test_Script,RunBuildOnce.cs,Assets/Editor/RunBuildOnce.cs,UNUSED TEST ASSET,SAFE TO ARCHIVE,Single-run test build runner
+Legacy_Tool,AssetMeshFactory.cs,Assets/Editor/AssetMeshFactory.cs,SAFE TO ARCHIVE,SAFE TO ARCHIVE,Procedural primitive mesh generator
+Legacy_Tool,HDLevel01CinematicIntegrator.cs,Assets/Editor/HDLevel01CinematicIntegrator.cs,SAFE TO ARCHIVE,SAFE TO ARCHIVE,Superseded early HD integrator
+Legacy_Tool,HDEnvironmentBuilder.cs,Assets/Editor/HDEnvironmentBuilder.cs,SAFE TO ARCHIVE,SAFE TO ARCHIVE,Superseded environment builder
+Legacy_Tool,HDEnvironmentSafeReplacer.cs,Assets/Editor/HDEnvironmentSafeReplacer.cs,SAFE TO ARCHIVE,SAFE TO ARCHIVE,Superseded replacer tool
+Legacy_Tool,HDExtendedMeshFactory.cs,Assets/Editor/HDExtendedMeshFactory.cs,SAFE TO ARCHIVE,SAFE TO ARCHIVE,Superseded mesh generator
+Legacy_Tool,HDTerrainBuilder.cs,Assets/Editor/HDTerrainBuilder.cs,SAFE TO ARCHIVE,SAFE TO ARCHIVE,Superseded terrain builder
+Legacy_Tool,HDTerrainFactory.cs,Assets/Editor/HDTerrainFactory.cs,SAFE TO ARCHIVE,SAFE TO ARCHIVE,Superseded terrain factory
+Legacy_Tool,HDTreeFoliageIntegrator.cs,Assets/Editor/HDTreeFoliageIntegrator.cs,SAFE TO ARCHIVE,SAFE TO ARCHIVE,Superseded foliage integrator
+Legacy_Tool,VisualAssetCleanupAuditor.cs,Assets/Editor/VisualAssetCleanupAuditor.cs,SAFE TO ARCHIVE,SAFE TO ARCHIVE,Superseded audit tool
+Legacy_Tool,VisualAssetSafeArchiver.cs,Assets/Editor/VisualAssetSafeArchiver.cs,SAFE TO ARCHIVE,SAFE TO ARCHIVE,Superseded archiver tool

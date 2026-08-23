@@ -1,0 +1,389 @@
+================================================================================
+HD JUNGLE ASSET DISCOVERY & AUTO-MAPPING REPORT
+Timestamp: 2026-08-22 17:07:05
+================================================================================
+Scan Path:                      Assets/HD_Jungle_Assets
+Total Assets Scanned:           69
+Total Prefabs Discovered:       13
+Usable Environment Prefabs:     69
+Rejected Assets:                0
+Existing Mappings Preserved:    10
+New Mappings Added:             64
+Duplicates Skipped:             5
+
+--------------------------------------------------------------------------------
+CATEGORY BREAKDOWN:
+--------------------------------------------------------------------------------
+- Tree            : 21 prefabs
+- Rock            : 19 prefabs
+- RiverRock       : 2 prefabs
+- Grass           : 8 prefabs
+- DeadLeaves      : 2 prefabs
+- Bush            : 4 prefabs
+- Ground          : 6 prefabs
+- Water           : 2 prefabs
+- Waterfall       : 2 prefabs
+- WoodTrunk       : 2 prefabs
+- AncientStone    : 1 prefabs
+- Arch            : 2 prefabs
+- Other           : 3 prefabs
+
+Missing Categories: None (All 13 categories mapped)
+
+--------------------------------------------------------------------------------
+MATERIAL & SHADER STATUS:
+--------------------------------------------------------------------------------
+URP Compatible:                 46
+Built-in Standard:              18
+Missing Shader:                 0
+Missing Material:               5
+Unknown Shader:                 0
+
+--------------------------------------------------------------------------------
+DISCOVERED ASSET DETAILS:
+--------------------------------------------------------------------------------
+[1] HD_DeadLeaves_Litter_01 -> Category: DeadLeaves
+    Path: Assets/HD_Jungle_Assets/forest Dead leaves/HD_DeadLeaves_Litter_01.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Missing Material
+    Bounds: (2.0m, 0.1m, 2.0m) | Shaders: 
+
+[2] HD_DeadLeaves_MulchPile_02 -> Category: DeadLeaves
+    Path: Assets/HD_Jungle_Assets/forest Dead leaves/HD_DeadLeaves_MulchPile_02.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Missing Material
+    Bounds: (3.0m, 0.2m, 2.5m) | Shaders: 
+
+[3] HD_Grass_DensePatch_02 -> Category: Grass
+    Path: Assets/HD_Jungle_Assets/Grass/HD_Grass_DensePatch_02.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Missing Material
+    Bounds: (1.5m, 0.8m, 1.5m) | Shaders: 
+
+[4] HD_Grass_Tuft_01 -> Category: Grass
+    Path: Assets/HD_Jungle_Assets/Grass/HD_Grass_Tuft_01.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Missing Material
+    Bounds: (1.0m, 1.0m, 1.0m) | Shaders: 
+
+[5] HD_Jungle_Bush_01 -> Category: Bush
+    Path: Assets/HD_Jungle_Assets/Jungle/HD_Jungle_Bush_01.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Missing Material
+    Bounds: (1.5m, 1.5m, 1.5m) | Shaders: 
+
+[6] HD_RiverRock_Smooth_01 -> Category: RiverRock
+    Path: Assets/HD_Jungle_Assets/RiverRocks/HD_RiverRock_Smooth_01.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (1.5m, 0.6m, 1.5m) | Shaders: Standard
+
+[7] HD_RiverRock_SteppingStone_02 -> Category: RiverRock
+    Path: Assets/HD_Jungle_Assets/RiverRocks/HD_RiverRock_SteppingStone_02.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (2.0m, 0.5m, 2.0m) | Shaders: Standard
+
+[8] HD_Stone_AncientPillar_01 -> Category: AncientStone
+    Path: Assets/HD_Jungle_Assets/Stones/HD_Stone_AncientPillar_01.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (1.2m, 8.0m, 1.2m) | Shaders: Standard
+
+[9] HD_Stone_Arch_01 -> Category: Arch
+    Path: Assets/HD_Jungle_Assets/Stones/HD_Stone_Arch_01.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (3.0m, 3.5m, 1.0m) | Shaders: Standard
+
+[10] HD_Water_Surface_01 -> Category: Waterfall
+    Path: Assets/HD_Jungle_Assets/Waterfall/HD_Water_Surface_01.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (150.0m, 0.0m, 100.0m) | Shaders: Standard
+
+[11] HD_Waterfall_Cascade_01 -> Category: Waterfall
+    Path: Assets/HD_Jungle_Assets/Waterfall/HD_Waterfall_Cascade_01.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (5.0m, 8.0m, 0.0m) | Shaders: Standard
+
+[12] HD_Wood_FallenLog_01 -> Category: WoodTrunk
+    Path: Assets/HD_Jungle_Assets/wood+trunk/HD_Wood_FallenLog_01.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (6.0m, 0.8m, 0.8m) | Shaders: Standard
+
+[13] HD_Wood_Stump_01 -> Category: WoodTrunk
+    Path: Assets/HD_Jungle_Assets/wood+trunk/HD_Wood_Stump_01.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (1.2m, 1.6m, 1.2m) | Shaders: Standard
+
+[14] Bush 1 -> Category: Bush
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Bush 1.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (4.7m, 4.1m, 4.0m) | Shaders: Shader Graphs/Color
+
+[15] Bush 2 -> Category: Bush
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Bush 2.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (3.9m, 4.1m, 4.8m) | Shaders: Shader Graphs/Color
+
+[16] Bush 3 -> Category: Bush
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Bush 3.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (4.2m, 3.5m, 4.3m) | Shaders: Shader Graphs/Color
+
+[17] Grass 1 -> Category: Grass
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Grass 1.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (2.2m, 1.8m, 2.3m) | Shaders: Shader Graphs/Color
+
+[18] Grass 2 -> Category: Grass
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Grass 2.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (1.0m, 1.0m, 0.8m) | Shaders: Shader Graphs/Color
+
+[19] Grass 3 -> Category: Grass
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Grass 3.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (1.1m, 1.0m, 1.1m) | Shaders: Shader Graphs/Color
+
+[20] Grass 4 -> Category: Grass
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Grass 4.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (2.9m, 2.0m, 2.9m) | Shaders: Shader Graphs/Color
+
+[21] Water -> Category: Water
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Water.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (201.9m, 0.0m, 201.9m) | Shaders: Shader Graphs/Water
+
+[22] Rock 1 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 1.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (2.0m, 2.4m, 2.2m) | Shaders: Shader Graphs/Color
+
+[23] Rock 2 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 2.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (0.8m, 4.9m, 1.0m) | Shaders: Shader Graphs/Color
+
+[24] Rock 3 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 3.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (2.5m, 4.9m, 2.9m) | Shaders: Shader Graphs/Color
+
+[25] Rock 4 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 4.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (1.4m, 2.0m, 1.7m) | Shaders: Shader Graphs/Color
+
+[26] Rock 5 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 5.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (2.4m, 3.9m, 2.5m) | Shaders: Shader Graphs/Color
+
+[27] Rock 6 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 6.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (1.9m, 1.5m, 2.0m) | Shaders: Shader Graphs/Color
+
+[28] Rock 7 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 7.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (2.0m, 4.1m, 2.1m) | Shaders: Shader Graphs/Color
+
+[29] Rock 8 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 8.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (1.9m, 1.0m, 2.0m) | Shaders: Shader Graphs/Color
+
+[30] Rock 9 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 9.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (1.6m, 3.3m, 1.7m) | Shaders: Shader Graphs/Color
+
+[31] Rock 10 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 10.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (0.8m, 2.5m, 0.9m) | Shaders: Shader Graphs/Color
+
+[32] Rock 11 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 11.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (1.3m, 1.6m, 1.3m) | Shaders: Shader Graphs/Color
+
+[33] Rock 12 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 12.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (1.5m, 1.7m, 2.0m) | Shaders: Shader Graphs/Color
+
+[34] Rock Arc -> Category: Arch
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock Arc.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (16.1m, 15.0m, 12.2m) | Shaders: Shader Graphs/Color
+
+[35] Rock Pile 1 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock Pile 1.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (6.2m, 4.5m, 6.2m) | Shaders: Shader Graphs/Color
+
+[36] Rock Pile 2 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock Pile 2.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (5.9m, 6.2m, 5.3m) | Shaders: Shader Graphs/Color
+
+[37] Rock Pile 3 -> Category: Rock
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock Pile 3.prefab
+    Renderers: 1 | Materials: 1 | URP Status: URP Compatible
+    Bounds: (18.9m, 13.4m, 19.2m) | Shaders: Shader Graphs/Color
+
+[38] Canyon -> Category: Ground
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Canyon.prefab
+    Renderers: 1 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (20.0m, 5.0m, 20.1m) | Shaders: Shader Graphs/Color
+
+[39] Field -> Category: Ground
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Field.prefab
+    Renderers: 5 | Materials: 6 | URP Status: URP Compatible
+    Bounds: (28.4m, 24.8m, 29.1m) | Shaders: Shader Graphs/Color
+
+[40] Forest -> Category: Ground
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Forest.prefab
+    Renderers: 3 | Materials: 5 | URP Status: URP Compatible
+    Bounds: (25.9m, 14.3m, 23.7m) | Shaders: Shader Graphs/Color
+
+[41] Lake -> Category: Water
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Lake.prefab
+    Renderers: 5 | Materials: 8 | URP Status: URP Compatible
+    Bounds: (20.8m, 17.9m, 20.8m) | Shaders: Shader Graphs/Color, Shader Graphs/Water
+
+[42] Mountain 1 -> Category: Ground
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Mountain 1.prefab
+    Renderers: 1 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (20.0m, 9.8m, 20.0m) | Shaders: Shader Graphs/Color, Universal Render Pipeline/Lit
+
+[43] Mountain 2 -> Category: Ground
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Mountain 2.prefab
+    Renderers: 1 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (20.0m, 9.6m, 20.0m) | Shaders: Shader Graphs/Color, Universal Render Pipeline/Lit
+
+[44] Mountain 3 -> Category: Ground
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Mountain 3.prefab
+    Renderers: 1 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (20.0m, 7.0m, 20.0m) | Shaders: Shader Graphs/Color, Universal Render Pipeline/Lit
+
+[45] Pine 1 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 1.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (5.3m, 8.3m, 5.8m) | Shaders: Shader Graphs/Color
+
+[46] Pine 2 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 2.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (3.6m, 8.1m, 4.3m) | Shaders: Shader Graphs/Color
+
+[47] Pine 3 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 3.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (4.5m, 8.0m, 5.4m) | Shaders: Shader Graphs/Color
+
+[48] Pine 4 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 4.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (4.5m, 7.1m, 4.8m) | Shaders: Shader Graphs/Color
+
+[49] Pine 5 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 5.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (3.8m, 7.7m, 4.3m) | Shaders: Shader Graphs/Color
+
+[50] Pine 6 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 6.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (1.7m, 7.0m, 2.3m) | Shaders: Shader Graphs/Color
+
+[51] Tree 1 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 1.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (4.6m, 5.9m, 4.3m) | Shaders: Shader Graphs/Color
+
+[52] Tree 2 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 2.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (5.6m, 6.1m, 5.7m) | Shaders: Shader Graphs/Color
+
+[53] Tree 3 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 3.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (8.9m, 12.4m, 7.0m) | Shaders: Shader Graphs/Color
+
+[54] Tree 4 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 4.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (9.8m, 11.5m, 11.2m) | Shaders: Shader Graphs/Color
+
+[55] Tree 5 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 5.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (15.4m, 14.9m, 10.7m) | Shaders: Shader Graphs/Color
+
+[56] Tree 6 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 6.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (11.4m, 12.2m, 11.4m) | Shaders: Shader Graphs/Color
+
+[57] Tree 7 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 7.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (4.7m, 8.3m, 4.3m) | Shaders: Shader Graphs/Color
+
+[58] Tree 8 -> Category: Tree
+    Path: Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 8.prefab
+    Renderers: 2 | Materials: 2 | URP Status: URP Compatible
+    Bounds: (11.1m, 11.5m, 9.7m) | Shaders: Shader Graphs/Color
+
+[59] forestpack_foliage_grassPatch_small_1 -> Category: Grass
+    Path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_1.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (0.3m, 0.2m, 0.3m) | Shaders: Standard
+
+[60] forestpack_foliage_grassPatch_small_2 -> Category: Grass
+    Path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_2.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (0.3m, 0.2m, 0.2m) | Shaders: Standard
+
+[61] forestpack_foliage_mushroom_blue_big -> Category: Other
+    Path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Mushroom/forestpack_foliage_mushroom_blue_big.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (0.2m, 0.2m, 0.2m) | Shaders: Standard
+
+[62] forestpack_foliage_mushroom_red_small -> Category: Other
+    Path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Mushroom/forestpack_foliage_mushroom_red_small.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (0.1m, 0.2m, 0.1m) | Shaders: Standard
+
+[63] forestpack_roadSign_westEast_1 -> Category: Other
+    Path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Sign/forestpack_roadSign_westEast_1.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (1.1m, 1.0m, 0.2m) | Shaders: Standard
+
+[64] forestpack_stone_large_1 -> Category: Rock
+    Path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_large_1.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (1.0m, 0.7m, 0.9m) | Shaders: Standard
+
+[65] forestpack_stone_medium_1 -> Category: Rock
+    Path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_medium_1.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (0.5m, 0.5m, 0.5m) | Shaders: Standard
+
+[66] forestpack_tree_fir_tall -> Category: Tree
+    Path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Tree/Fir/forestpack_tree_fir_tall.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (1.7m, 3.5m, 1.6m) | Shaders: Standard
+
+[67] forestpack_tree_1_leaf_1 -> Category: Tree
+    Path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Tree/Leaf/Normal/forestpack_tree_1_leaf_1.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (1.4m, 2.3m, 1.4m) | Shaders: Standard
+
+[68] forestpack_tree_stump_1 -> Category: WoodTrunk
+    Path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Tree/Treestump/forestpack_tree_stump_1.prefab
+    Renderers: 1 | Materials: 1 | URP Status: Built-in Standard (URP Copy Available)
+    Bounds: (0.7m, 0.6m, 0.6m) | Shaders: Standard
+
+[69] HD_Tree_CoconutPalm_01 -> Category: Tree
+    Path: Assets/Art/Environment/HD/Trees/HD_Tree_CoconutPalm_01.prefab
+    Renderers: 11 | Materials: 11 | URP Status: URP Compatible
+    Bounds: (7.1m, 7.2m, 7.0m) | Shaders: Universal Render Pipeline/Lit
+

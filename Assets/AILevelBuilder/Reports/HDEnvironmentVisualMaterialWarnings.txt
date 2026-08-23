@@ -1,0 +1,70 @@
+================================================================================
+HD ENVIRONMENT VISUAL MATERIAL AUDIT - WARNINGS ONLY REPORT
+================================================================================
+Timestamp: 2026-08-23 08:18:53
+Audit Target: AI_GENERATED_LEVEL/HD_REPLACEMENTS, AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW
+Status: PASS WITH WARNINGS
+Total Material Slots Audited: 170
+Total Warnings Found: 6
+================================================================================
+
+[WARNING 1/6] Landscape (Renderer: Landscape [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Landscape
+  Material: Rock_URP (Assets/AILevelBuilder/HD/URPMaterials/Rock_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: (None) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
+--------------------------------------------------------------------------------
+[WARNING 2/6] Tree6 (Renderer: Tree6 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Tree6
+  Material: Tree Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Tree Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: (None) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
+--------------------------------------------------------------------------------
+[WARNING 3/6] Water Plane (Renderer: Water Plane [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Water Plane
+  Material: Water Material (Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Water Material.mat)
+  Shader: Shader Graphs/Water_HDRP (Assets/Low Poly Environment Starter Kit/Source/Shader/HDRP/Water_HDRP.shadergraph)
+  BaseMap: (No BaseMap property) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
+--------------------------------------------------------------------------------
+[WARNING 4/6] Water Plane (Renderer: Water Plane [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverExitBank/Water Plane
+  Material: Water Material (Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Water Material.mat)
+  Shader: Shader Graphs/Water_HDRP (Assets/Low Poly Environment Starter Kit/Source/Shader/HDRP/Water_HDRP.shadergraph)
+  BaseMap: (No BaseMap property) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
+--------------------------------------------------------------------------------
+[WARNING 5/6] Water Plane (Renderer: Water Plane [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Water_RiverChannel/Water Plane
+  Material: Water Material (Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Water Material.mat)
+  Shader: Shader Graphs/Water_HDRP (Assets/Low Poly Environment Starter Kit/Source/Shader/HDRP/Water_HDRP.shadergraph)
+  BaseMap: (No BaseMap property) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
+--------------------------------------------------------------------------------
+[WARNING 6/6] Rock_Arc (Renderer: Rock_Arc [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Arch/HD_Ruin_Arch_Top1/Rock_Arc
+  Material: Rock (Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Rock.mat)
+  Shader: Shader Graphs/Color_HDRP (Assets/Low Poly Environment Starter Kit/Source/Shader/HDRP/Color_HDRP.shadergraph)
+  BaseMap: (No BaseMap property) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
+--------------------------------------------------------------------------------

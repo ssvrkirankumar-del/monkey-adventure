@@ -1,0 +1,132 @@
+================================================================================
+HD MATERIAL RECOVERY REPORT
+Generated: 2026-08-23 08:23:26
+================================================================================
+Scope: Preview
+Total Items Scanned: 6
+High Confidence (90-100%): 0
+Review (75-89%): 3
+Low Confidence (55-74%): 3
+No Candidate (0-54%): 0
+--------------------------------------------------------------------------------
+
+Target: Landscape [Slot 1]
+Target Status: Active in Scene
+Hierarchy: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Landscape
+Target Category: Rock
+Environment Context: Water / Lake
+Current Material: Rock
+Candidate: Rock_URP
+Candidate Category: Rock
+Candidate Path: Assets/AILevelBuilder/HD/URPMaterials/Rock_URP.mat
+Confidence: 67%
+Category Score: 30
+Name Score: 20
+Semantic Score: 15
+Texture Score: 0
+Compatibility Score: 15
+Final Score: 67
+Decision: [LOW]
+Reason: Deterministic match (67%). Target [Rock] -> Candidate [Rock]. Source: Assets/AILevelBuilder/HD/URPMaterials/Rock_URP.mat
+
+--------------------------------------------------------------------------------
+Target: Tree6 [Slot 0]
+Target Status: Active in Scene
+Hierarchy: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Tree6
+Target Category: Bark
+Environment Context: Water / Lake
+Current Material: Tree Bark_URP
+Candidate: Ash_Bark
+Candidate Category: Bark
+Candidate Path: Assets/Realistic Tree/Source/Materials/Standard/Bark/Ash_Bark.mat
+Confidence: 71%
+Category Score: 30
+Name Score: 10
+Semantic Score: 15
+Texture Score: 20
+Compatibility Score: 10
+Final Score: 71
+Decision: [LOW]
+Reason: Deterministic match (71%). Target [Bark] -> Candidate [Bark]. Source: Assets/Realistic Tree/Source/Materials/Standard/Bark/Ash_Bark.mat
+
+--------------------------------------------------------------------------------
+Target: Water Plane [Slot 0]
+Target Status: Active in Scene
+Hierarchy: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Water Plane
+Target Category: Water
+Environment Context: Water / Lake
+Current Material: Water Material
+Candidate: Water Material_URP
+Candidate Category: Water
+Candidate Path: Assets/AILevelBuilder/HD/URPMaterials/Water Material_URP.mat
+Confidence: 79%
+Category Score: 30
+Name Score: 20
+Semantic Score: 30
+Texture Score: 0
+Compatibility Score: 15
+Final Score: 79
+Decision: [REVIEW]
+Reason: Deterministic match (79%). Target [Water] -> Candidate [Water]. Source: Assets/AILevelBuilder/HD/URPMaterials/Water Material_URP.mat
+
+--------------------------------------------------------------------------------
+Target: Water Plane [Slot 0]
+Target Status: Active in Scene
+Hierarchy: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverExitBank/Water Plane
+Target Category: Water
+Environment Context: Water / Lake
+Current Material: Water Material
+Candidate: Water Material_URP
+Candidate Category: Water
+Candidate Path: Assets/AILevelBuilder/HD/URPMaterials/Water Material_URP.mat
+Confidence: 79%
+Category Score: 30
+Name Score: 20
+Semantic Score: 30
+Texture Score: 0
+Compatibility Score: 15
+Final Score: 79
+Decision: [REVIEW]
+Reason: Deterministic match (79%). Target [Water] -> Candidate [Water]. Source: Assets/AILevelBuilder/HD/URPMaterials/Water Material_URP.mat
+
+--------------------------------------------------------------------------------
+Target: Water Plane [Slot 0]
+Target Status: Active in Scene
+Hierarchy: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Water_RiverChannel/Water Plane
+Target Category: Water
+Environment Context: Water / Lake
+Current Material: Water Material
+Candidate: Water Material_URP
+Candidate Category: Water
+Candidate Path: Assets/AILevelBuilder/HD/URPMaterials/Water Material_URP.mat
+Confidence: 79%
+Category Score: 30
+Name Score: 20
+Semantic Score: 30
+Texture Score: 0
+Compatibility Score: 15
+Final Score: 79
+Decision: [REVIEW]
+Reason: Deterministic match (79%). Target [Water] -> Candidate [Water]. Source: Assets/AILevelBuilder/HD/URPMaterials/Water Material_URP.mat
+
+--------------------------------------------------------------------------------
+Target: Rock_Arc [Slot 0]
+Target Status: Active in Scene
+Hierarchy: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Arch/HD_Ruin_Arch_Top1/Rock_Arc
+Target Category: Rock
+Environment Context: Generic Environment
+Current Material: Rock
+Candidate: Rock_URP
+Candidate Category: Rock
+Candidate Path: Assets/AILevelBuilder/HD/URPMaterials/Rock_URP.mat
+Confidence: 67%
+Category Score: 30
+Name Score: 20
+Semantic Score: 15
+Texture Score: 0
+Compatibility Score: 15
+Final Score: 67
+Decision: [LOW]
+Reason: Deterministic match (67%). Target [Rock] -> Candidate [Rock]. Source: Assets/AILevelBuilder/HD/URPMaterials/Rock_URP.mat
+
+--------------------------------------------------------------------------------

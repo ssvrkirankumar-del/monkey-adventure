@@ -1,0 +1,49 @@
+================================================================================
+FULL SCENE MAGENTA AUDIT REPORT (READ-ONLY)
+Timestamp: 2026-08-22 14:24:00
+================================================================================
+Scene: Level01_Awakening
+Scene Path: Assets/Level01_Awakening.unity
+
+TOTAL GAMEOBJECTS:        148
+TOTAL RENDERERS:          82
+TOTAL MATERIAL SLOTS:     90
+
+URP COMPATIBLE:           90 (100%)
+BUILT-IN STANDARD:        0
+INTERNAL ERROR:           0
+MISSING SHADER:           0
+MISSING MATERIAL:         0
+UNKNOWN:                  0
+
+DEFINITE MAGENTA RISK:    0
+POSSIBLE MAGENTA:         0
+PARTICLE/VFX MAGENTA:     0
+SPRITE MAGENTA:           0
+TRAIL/LINE MAGENTA:       0
+POSSIBLE GIZMO/DEBUG:     24
+================================================================================
+
+RESULT: NO ACTUAL MAGENTA MATERIAL/SHADER FOUND.
+
+All 82 Renderers and 90 Material Slots across the entire active scene are 100% compliant with Universal Render Pipeline/Lit.
+
+EXPLANATION OF VISIBLE PINK / MAGENTA SHAPES IN SCENEVIEW:
+The small bright magenta/pink shapes visible in the SceneView are NOT broken materials or missing shaders.
+They are editor-only SceneView Gizmos / Debug visualizers:
+1. LevelMarker components (PlayerStart, Checkpoints, Finish, Collectibles, Obstacles, Enemies) drawing WireSphere & Ray Gizmos.
+2. SceneView icon badges / Selection handles.
+3. Trigger collider volume visualizers.
+
+These gizmos do not render in GameView or release builds.
+
+================================================================================
+POSSIBLE SCENEVIEW GIZMO / DEBUG VISUALS:
+--------------------------------------------------
+• Start (AI_GENERATED_LEVEL/Start) -> LevelMarker [Start]: Draws SceneView wire sphere & direction rays.
+• Finish (AI_GENERATED_LEVEL/Finish) -> LevelMarker [Finish]: Draws SceneView wire sphere & direction rays.
+• Checkpoint_01 (AI_GENERATED_LEVEL/Checkpoints/Checkpoint_01) -> LevelMarker [Checkpoint]: Draws SceneView wire sphere & direction rays.
+• Collectible_01..12 (AI_GENERATED_LEVEL/Collectibles/*) -> LevelMarker [CollectibleSpawn]: Draws SceneView wire sphere & direction rays.
+• Obstacle_01..05 (AI_GENERATED_LEVEL/Obstacles/*) -> LevelMarker [ObstacleSpawn]: Draws SceneView wire sphere & direction rays.
+• Enemy_01..04 (AI_GENERATED_LEVEL/Enemies/*) -> LevelMarker [EnemySpawn]: Draws SceneView wire sphere & direction rays.
+================================================================================

@@ -1,0 +1,34 @@
+HD ENVIRONMENT MASTER VISUAL QA REPORT
+=======================================
+Overall: 81/100
+
+SCORES
+Materials: 88
+Terrain: 25
+Vegetation: 86
+Mountains: 86
+Water: 100
+Ruins: 100
+Lighting: 90
+Composition: 90
+Gameplay: 95
+Performance: 88
+
+CRITICAL
+- Blue/cyan ground material risk detected; investigate before vegetation dressing.
+- White/untextured terrain risk detected.
+- White/untextured visual risk detected: 6 slots.
+
+WARNINGS
+- Vegetation categories missing/undetected: 1. Auto-dresser will use available HD assets and report missing categories.
+
+CATEGORY REPORT
+[25/100] Ground / Terrain | Found=48 | Issues=6 | Ground-like objects: 48. White/untextured risks: 5. Blue material risks: 1. Final forest floor must not look like a flat green mat.
+[86/100] Mountains / Hills | Found=6 | Issues=0 | Detected 6 relevant object(s). Material, scale, placement and visual integration must be checked.
+[86/100] Vegetation | Found=302 | Issues=1 | Trees 267 | Grass 5 | Ferns 0 | Bushes 3 | Leaf litter 27. Distribution must vary by zone and preserve a clear player corridor.
+[100/100] Water / River | Found=23 | Issues=0 | Detected 23 relevant object(s). Material, scale, placement and visual integration must be checked.
+[100/100] Ancient Ruins | Found=59 | Issues=0 | Detected 59 relevant object(s). Material, scale, placement and visual integration must be checked.
+[90/100] Lighting / Atmosphere | Found=1 | Issues=0 | Lights: 1, directional lights: 1. Final jungle presentation requires readable shadows and controlled exposure.
+[95/100] Gameplay Safety | Found=62 | Issues=0 | Gameplay-related markers/objects detected: 62. Visual dressing must stay outside the player safety corridor.
+[90/100] Composition | Found=274 | Issues=0 | Resolved level bounds 256.8m x 265.5m. Composition is evaluated as a whole, not by isolated assets.
+[88/100] Performance | Found=232 | Issues=0 | Environment renderers: 232. Dressing uses a hard object cap and deterministic spacing.

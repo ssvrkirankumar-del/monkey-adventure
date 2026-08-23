@@ -1,0 +1,919 @@
+﻿MONKEY ADVENTURE - HD ASSET AUDIT
+Generated: 2026-08-18T18:27:17.2930050+05:30
+Scene: Assets/Level01_Awakening.unity
+
+Scene renderer objects scanned: 143
+Primitive placeholders: 138
+Pink/broken material candidates: 5
+Model files: 116
+Prefabs: 283
+Materials: 144
+Textures: 140
+Animations/controllers: 38
+Audio files: 26
+
+=== PRIMITIVE PLACEHOLDERS ===
+[--- 01_ENVIRONMENT ---]/Ground_Start_Zone | Cube | Mat_Jungle_Ground
+[--- 01_ENVIRONMENT ---]/Ground_Path_01 | Cube | Mat_Jungle_Ground
+[--- 01_ENVIRONMENT ---]/Ground_Enemy_Arena | Cube | Mat_Jungle_Ground
+[--- 01_ENVIRONMENT ---]/Platform_Jump_01 | Cube | Mat_Wood_Platform
+[--- 01_ENVIRONMENT ---]/Platform_Jump_02 | Cube | Mat_Wood_Platform
+[--- 01_ENVIRONMENT ---]/Platform_Vine_Landing | Cube | Mat_Jungle_Ground
+[--- 01_ENVIRONMENT ---]/Prop_ClimbableVine/VineStem | Cylinder | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Ground_Hazard_Clearing | Cube | Mat_Jungle_Ground
+[--- 01_ENVIRONMENT ---]/Ground_Puzzle_Courtyard | Cube | Mat_Jungle_Ground
+[--- 01_ENVIRONMENT ---]/Ground_Checkpoint2_Arena | Cube | Mat_Jungle_Ground
+[--- 01_ENVIRONMENT ---]/Ground_Level_Complete_Exit | Cube | Mat_Jungle_Ground
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Trunk | Cylinder | Mat_JungleWood
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Foliage_Center | Sphere | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Foliage_L | Sphere | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Foliage_R | Sphere | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Trunk | Cylinder | Mat_JungleWood
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_0 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_1 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_2 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_3 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_4 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_5 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Trunk | Cylinder | Mat_JungleWood
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Foliage_Center | Sphere | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Foliage_L | Sphere | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Foliage_R | Sphere | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Trunk | Cylinder | Mat_JungleWood
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_0 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_1 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_2 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_3 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_4 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_5 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Trunk | Cylinder | Mat_JungleWood
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Foliage_Center | Sphere | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Foliage_L | Sphere | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Tree_JungleCanopy/Foliage_R | Sphere | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Trunk | Cylinder | Mat_JungleWood
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_0 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_1 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_2 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_3 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_4 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Tree_CoconutPalm/Frond_5 | Cube | Mat_PalmLeaves
+[--- 01_ENVIRONMENT ---]/Plant_JungleFern/Leaf_0 | Cube | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Plant_JungleFern/Leaf_1 | Cube | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Plant_JungleFern/Leaf_2 | Cube | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Plant_JungleFern/Leaf_3 | Cube | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Plant_JungleFern/Leaf_4 | Cube | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Plant_TropicalBush/Foliage1 | Sphere | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Plant_TropicalBush/Foliage2 | Sphere | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Plant_GlowingMushroom/Stem | Cylinder | Mat_JungleWood
+[--- 01_ENVIRONMENT ---]/Plant_GlowingMushroom/Cap | Sphere | Mat_DivineCyan
+[--- 01_ENVIRONMENT ---]/Plant_HibiscusFlower/Stem | Cylinder | Mat_JungleLeaves
+[--- 01_ENVIRONMENT ---]/Plant_HibiscusFlower/Petals | Sphere | Mat_ParrotFeather
+[--- 01_ENVIRONMENT ---]/Rock_MossyBoulder/Mesh | Sphere | Mat_MossyRock
+[--- 01_ENVIRONMENT ---]/Rock_MossyBoulder/Mesh | Sphere | Mat_MossyRock
+[--- 01_ENVIRONMENT ---]/Prop_HollowFallenLog/LogCylinder | Cylinder | Mat_JungleWood
+[--- 02_GAMEPLAY ---]/Player/ModelHolder/Monkey_Base/Head | Sphere | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Player/ModelHolder/Monkey_Base/Head/Snout | Sphere | Mat_MonkeySkin
+[--- 02_GAMEPLAY ---]/Player/ModelHolder/Monkey_Base/Head/Ear_L | Sphere | Mat_MonkeySkin
+[--- 02_GAMEPLAY ---]/Player/ModelHolder/Monkey_Base/Head/Ear_R | Sphere | Mat_MonkeySkin
+[--- 02_GAMEPLAY ---]/Player/ModelHolder/Monkey_Base/Torso | Capsule | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Player/ModelHolder/Monkey_Base/Torso/Chest | Sphere | Mat_MonkeySkin
+[--- 02_GAMEPLAY ---]/Player/ModelHolder/Monkey_Base/Arm_L | Capsule | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Player/ModelHolder/Monkey_Base/Arm_R | Capsule | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Player/ModelHolder/Monkey_Base/Leg_L | Capsule | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Player/ModelHolder/Monkey_Base/Leg_R | Capsule | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Player/ModelHolder/Monkey_Base/Tail | Cylinder | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Banana_01/BananaMesh | Capsule | Mat_GuardianGold
+[--- 02_GAMEPLAY ---]/Banana_02/BananaMesh | Capsule | Mat_GuardianGold
+[--- 02_GAMEPLAY ---]/Banana_03/BananaMesh | Capsule | Mat_GuardianGold
+[--- 02_GAMEPLAY ---]/Banana_04/BananaMesh | Capsule | Mat_GuardianGold
+[--- 02_GAMEPLAY ---]/Coin_01/CoinMesh | Cylinder | Mat_GuardianGold
+[--- 02_GAMEPLAY ---]/Coin_02/CoinMesh | Cylinder | Mat_GuardianGold
+[--- 02_GAMEPLAY ---]/Coin_03/CoinMesh | Cylinder | Mat_GuardianGold
+[--- 02_GAMEPLAY ---]/Coin_04/CoinMesh | Cylinder | Mat_GuardianGold
+[--- 02_GAMEPLAY ---]/Coin_05/CoinMesh | Cylinder | Mat_GuardianGold
+[--- 02_GAMEPLAY ---]/Water_Extinguisher_Buff | Cylinder | Default-Material
+[--- 02_GAMEPLAY ---]/Fire_Hazard_Zone | Cube | Mat_Fire_Hazard
+[--- 02_GAMEPLAY ---]/Toxic_Mushroom_Hazard | Sphere | Mat_Toxic_Mushroom
+[--- 02_GAMEPLAY ---]/Ruins_AncientArch/Pillar_L | Cube | Mat_AncientStone
+[--- 02_GAMEPLAY ---]/Ruins_AncientArch/Pillar_R | Cube | Mat_AncientStone
+[--- 02_GAMEPLAY ---]/Ruins_AncientArch/Lintel | Cube | Mat_AncientStone
+[--- 02_GAMEPLAY ---]/Ancient_Stone_Door/DoorSlab_Left | Cube | Mat_AncientStone
+[--- 02_GAMEPLAY ---]/Ancient_Stone_Door/DoorSlab_Left/RuneInlay_L | Sphere | Mat_RuneActiveGlow
+[--- 02_GAMEPLAY ---]/Ancient_Stone_Door/DoorSlab_Right | Cube | Mat_AncientStone
+[--- 02_GAMEPLAY ---]/Ancient_Stone_Door/DoorSlab_Right/RuneInlay_R | Sphere | Mat_RuneActiveGlow
+[--- 02_GAMEPLAY ---]/Rune_Switch_Left/Pedestal | Cylinder | Mat_AncientStone
+[--- 02_GAMEPLAY ---]/Rune_Switch_Left/RuneGem | Sphere | Mat_RuneActiveGlow
+[--- 02_GAMEPLAY ---]/Rune_Switch_Center/Pedestal | Cylinder | Mat_AncientStone
+[--- 02_GAMEPLAY ---]/Rune_Switch_Center/RuneGem | Sphere | Mat_RuneActiveGlow
+[--- 02_GAMEPLAY ---]/Rune_Switch_Right/Pedestal | Cylinder | Mat_AncientStone
+[--- 02_GAMEPLAY ---]/Rune_Switch_Right/RuneGem | Sphere | Mat_RuneActiveGlow
+[--- 02_GAMEPLAY ---]/Checkpoint_01_Start | Cylinder | Mat_Checkpoint_Active
+[--- 02_GAMEPLAY ---]/Checkpoint_02_PostDoor | Cylinder | Mat_Checkpoint_Active
+[--- 02_GAMEPLAY ---]/Breakable_Celestial_Relic/Pedestal | Cylinder | Mat_AncientStone
+[--- 02_GAMEPLAY ---]/Breakable_Celestial_Relic/Crystal | Sphere | Mat_DivineCyan
+[--- 02_GAMEPLAY ---]/Jungle_Predator_01/Body | Capsule | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Jungle_Predator_01/Head | Sphere | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Jungle_Predator_01/Leg_FL | Capsule | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Jungle_Predator_01/Leg_FR | Capsule | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Jungle_Predator_01/Leg_BL | Capsule | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Jungle_Predator_01/Leg_BR | Capsule | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Jungle_Guard_02/Body | Capsule | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Jungle_Guard_02/Head | Sphere | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Jungle_Guard_02/Leg_FL | Capsule | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Jungle_Guard_02/Leg_FR | Capsule | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Jungle_Guard_02/Leg_BL | Capsule | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Jungle_Guard_02/Leg_BR | Capsule | Mat_PredatorSkin
+[--- 02_GAMEPLAY ---]/Wildlife_Deer/Body | Capsule | Mat_DeerFur
+[--- 02_GAMEPLAY ---]/Wildlife_Deer/Head | Sphere | Mat_DeerFur
+[--- 02_GAMEPLAY ---]/Wildlife_Deer/Head/Antler_L | Cylinder | Mat_JungleWood
+[--- 02_GAMEPLAY ---]/Wildlife_Deer/Head/Antler_R | Cylinder | Mat_JungleWood
+[--- 02_GAMEPLAY ---]/Wildlife_Deer/Leg_FL | Capsule | Mat_DeerFur
+[--- 02_GAMEPLAY ---]/Wildlife_Deer/Leg_FR | Capsule | Mat_DeerFur
+[--- 02_GAMEPLAY ---]/Wildlife_Deer/Leg_BL | Capsule | Mat_DeerFur
+[--- 02_GAMEPLAY ---]/Wildlife_Deer/Leg_BR | Capsule | Mat_DeerFur
+[--- 02_GAMEPLAY ---]/Wildlife_Parrot/Body | Capsule | Mat_ParrotFeather
+[--- 02_GAMEPLAY ---]/Wildlife_Parrot/Body/Beak | Cube | Mat_GuardianGold
+[--- 02_GAMEPLAY ---]/Wildlife_Parrot/Body/Wing_L | Cube | Mat_DivineCyan
+[--- 02_GAMEPLAY ---]/Wildlife_Parrot/Body/Wing_R | Cube | Mat_DivineCyan
+[--- 02_GAMEPLAY ---]/Wildlife_TreeFrog/Body | Sphere | Mat_FrogSkin
+[--- 02_GAMEPLAY ---]/Wildlife_TreeFrog/Body/Eye_L | Sphere | Mat_FrogSkin
+[--- 02_GAMEPLAY ---]/Wildlife_TreeFrog/Body/Eye_R | Sphere | Mat_FrogSkin
+[--- 02_GAMEPLAY ---]/Wildlife_TreeFrog/Leg_L | Sphere | Mat_FrogSkin
+[--- 02_GAMEPLAY ---]/Wildlife_TreeFrog/Leg_R | Sphere | Mat_FrogSkin
+[--- 02_GAMEPLAY ---]/Wildlife_Butterfly/Body | Cylinder | Mat_TitanFur
+[--- 02_GAMEPLAY ---]/Wildlife_Butterfly/Wing_L | Cube | Mat_ButterflyWing
+[--- 02_GAMEPLAY ---]/Wildlife_Butterfly/Wing_R | Cube | Mat_ButterflyWing
+[--- 02_GAMEPLAY ---]/Wildlife_Monkey/Head | Sphere | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Wildlife_Monkey/Snout | Sphere | Mat_MonkeySkin
+[--- 02_GAMEPLAY ---]/Wildlife_Monkey/Body | Capsule | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Wildlife_Monkey/Arm_L | Capsule | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Wildlife_Monkey/Arm_R | Capsule | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Wildlife_Monkey/Leg_L | Capsule | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Wildlife_Monkey/Leg_R | Capsule | Mat_MonkeyFur
+[--- 02_GAMEPLAY ---]/Level_01_Complete_Gateway | Cylinder | Mat_Gateway_Portal
+
+=== PINK/BROKEN MATERIAL CANDIDATES ===
+[--- 02_GAMEPLAY ---]/Fire_Hazard_Zone/VFX_FireHazard_Flames |  | 
+[--- 02_GAMEPLAY ---]/Toxic_Mushroom_Hazard/VFX_Poison_SporeCloud |  | 
+[--- 02_GAMEPLAY ---]/Checkpoint_01_Start/VFX_Checkpoint_Beam |  | 
+[--- 02_GAMEPLAY ---]/Checkpoint_02_PostDoor/VFX_Checkpoint_Beam |  | 
+[--- 02_GAMEPLAY ---]/Level_01_Complete_Gateway/VFX_Portal_Vortex |  | 
+
+=== MODELS ===
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Axe_Curved.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Axe_Straight.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Chisel_Broad.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Chisel_Curved.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Chisel_Narrow.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Drawing_Knife.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Drill_Bit.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/File.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Gimlet.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Hand_Drill.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Hand_Saw.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Plane_Backward.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Plane_Forward.fbx
+Assets/CoolWorks_Studio/Carpentry_Tools/Meshes/Rasp.fbx
+Assets/CoolWorks_Studio/Common/Meshes/Floor_Round.fbx
+Assets/Furry Squirrel/Meshes/Squirrel.fbx
+Assets/ithappy/Animals_FREE/Meshes/Chicken_001.fbx
+Assets/ithappy/Animals_FREE/Meshes/Deer_001.fbx
+Assets/ithappy/Animals_FREE/Meshes/Dog_001.fbx
+Assets/ithappy/Animals_FREE/Meshes/Horse_001.fbx
+Assets/ithappy/Animals_FREE/Meshes/Kitty_001.fbx
+Assets/ithappy/Animals_FREE/Meshes/Pinguin_001.fbx
+Assets/ithappy/Animals_FREE/Meshes/Tiger_001.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Other/Bush_1.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Other/Bush_2.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Other/Bush_3.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Other/Grass_1.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Other/Grass_2.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Other/Grass_3.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Other/Grass_4.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Other/Water Plane.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Rock_Arc.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Rock_Pile_1.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Rock_Pile_2.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Rock_Pile_3.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_1.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_2.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_4.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_5.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_6.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_7.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_8.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_9.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_10.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_11.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_12.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Rocks/Stone_13.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Terrains/Canyon.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Terrains/Fields.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Terrains/Forest.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Terrains/Lake.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Terrains/Mountain_1.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Terrains/Mountain_2.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Terrains/Mountain_3.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Pine1.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Pine2.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Pine3.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Pine4.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Pine5.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Pine6.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Tree_1.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Tree_2.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Tree_3.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Tree_4.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Tree_5.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Tree_6.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Tree_7.fbx
+Assets/Low Poly Environment Starter Kit/Source/Meshes/Trees/Tree_8.fbx
+Assets/Patchmesh/Stylized Critter Collection Demo/Meshes/Caterpillar.fbx
+Assets/Patchmesh/Stylized Critter Collection Demo/Meshes/Ladybug.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Mushrooms/PT_Caesars_Mushroom_01.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Generic_Rock_01.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Menhir_Rock_02.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01_split.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_River_Rock_Pile_02.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_dead.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_green.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead_cut.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green_cut.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_logs.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_pears.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_plums.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_stump.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead_cut.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green_cut.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_logs.fbx
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_stump.fbx
+Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Bridge/PT_Wooden_Bridge_02.fbx
+Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_01.fbx
+Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_02.fbx
+Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_03.fbx
+Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Gate_Wood_01.fbx
+Assets/Supercyan Free Forest Sample/Models/Foliage/Grass/forestpack_foliage_grassPatch_small_1.fbx
+Assets/Supercyan Free Forest Sample/Models/Foliage/Grass/forestpack_foliage_grassPatch_small_2.fbx
+Assets/Supercyan Free Forest Sample/Models/Foliage/Mushroom/forestpack_foliage_mushroom_blue_big.FBX
+Assets/Supercyan Free Forest Sample/Models/Foliage/Mushroom/forestpack_foliage_mushroom_red_small.FBX
+Assets/Supercyan Free Forest Sample/Models/SignAndBridge/forestpack_roadSign_westEast_1.FBX
+Assets/Supercyan Free Forest Sample/Models/SignAndBridge/forestpack_roadSign_westEast_1_meshCollider.FBX
+Assets/Supercyan Free Forest Sample/Models/Stone/forestpack_stone_large_1.fbx
+Assets/Supercyan Free Forest Sample/Models/Stone/forestpack_stone_large_1_meshCollider.FBX
+Assets/Supercyan Free Forest Sample/Models/Stone/forestpack_stone_medium_1.fbx
+Assets/Supercyan Free Forest Sample/Models/Stone/forestpack_stone_medium_1_meshCollider.FBX
+Assets/Supercyan Free Forest Sample/Models/Tree/Fir/forestpack_tree_fir_tall.fbx
+Assets/Supercyan Free Forest Sample/Models/Tree/Fir/forestpack_tree_fir_tall_meshCollider.FBX
+Assets/Supercyan Free Forest Sample/Models/Tree/Leaf/forestpack_tree_1_leaf_1.FBX
+Assets/Supercyan Free Forest Sample/Models/Tree/Leaf/forestpack_tree_1_leaf_1_meshCollider.FBX
+Assets/Supercyan Free Forest Sample/Models/Tree/Treestump/forestpack_tree_stump_1.FBX
+Assets/Supercyan Free Forest Sample/Models/Tree/Treestump/forestpack_tree_stump_1_meshCollider.FBX
+
+=== PREFABS ===
+Assets/Art/Bosses/Boss_AlphaJaguar.prefab
+Assets/Art/Bosses/Boss_FinalCorruptor.prefab
+Assets/Art/Bosses/Boss_RiverSerpent.prefab
+Assets/Art/Bosses/Boss_ShadowBeast.prefab
+Assets/Art/Bosses/Boss_StoneGolem.prefab
+Assets/Art/Characters/Monkey_Base.prefab
+Assets/Art/Characters/Monkey_DivineGuardian.prefab
+Assets/Art/Characters/Monkey_Guardian.prefab
+Assets/Art/Characters/Monkey_PrimalTitan.prefab
+Assets/Art/Enemies/Enemy_JunglePredator.prefab
+Assets/Art/Enemies/Enemy_ToxicReptile.prefab
+Assets/Art/Enemies/Enemy_WildBoar.prefab
+Assets/Art/Environment/Plants/Plant_GlowingMushroom.prefab
+Assets/Art/Environment/Plants/Plant_HibiscusFlower.prefab
+Assets/Art/Environment/Plants/Plant_JungleFern.prefab
+Assets/Art/Environment/Plants/Plant_TropicalBush.prefab
+Assets/Art/Environment/Rocks/Rock_CliffFormation.prefab
+Assets/Art/Environment/Rocks/Rock_FloatingIsland.prefab
+Assets/Art/Environment/Rocks/Rock_MossyBoulder.prefab
+Assets/Art/Environment/Ruins/Ruins_AncientArch.prefab
+Assets/Art/Environment/Ruins/Ruins_HeavyStoneDoor.prefab
+Assets/Art/Environment/Ruins/Ruins_RunePedestal.prefab
+Assets/Art/Environment/Trees/Tree_CoconutPalm.prefab
+Assets/Art/Environment/Trees/Tree_JungleCanopy.prefab
+Assets/Art/Props/Prop_AncientCoin.prefab
+Assets/Art/Props/Prop_BreakableRelic.prefab
+Assets/Art/Props/Prop_ClimbableVine.prefab
+Assets/Art/Props/Prop_GoldenBanana.prefab
+Assets/Art/Props/Prop_HollowFallenLog.prefab
+Assets/Art/VFX/VFX_AncientDoor_Magic.prefab
+Assets/Art/VFX/VFX_BossDeath_Burst.prefab
+Assets/Art/VFX/VFX_Checkpoint_Beam.prefab
+Assets/Art/VFX/VFX_EnergyBlast_Muzzle.prefab
+Assets/Art/VFX/VFX_Evolution_Transformation.prefab
+Assets/Art/VFX/VFX_FireHazard_Flames.prefab
+Assets/Art/VFX/VFX_GroundSmash_Shockwave.prefab
+Assets/Art/VFX/VFX_Guardian_Aura.prefab
+Assets/Art/VFX/VFX_Impact_Sparks.prefab
+Assets/Art/VFX/VFX_Poison_SporeCloud.prefab
+Assets/Art/VFX/VFX_Portal_Vortex.prefab
+Assets/Art/VFX/VFX_Projectile_Trail.prefab
+Assets/Art/VFX/VFX_Rune_ActivationGlow.prefab
+Assets/Art/VFX/VFX_WaterSplash_Mist.prefab
+Assets/Art/Wildlife/Wildlife_Butterfly.prefab
+Assets/Art/Wildlife/Wildlife_Deer.prefab
+Assets/Art/Wildlife/Wildlife_Monkey.prefab
+Assets/Art/Wildlife/Wildlife_Parrot.prefab
+Assets/Art/Wildlife/Wildlife_TreeFrog.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Axe_Curved.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Axe_Straight.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Chisel_Broad.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Chisel_Curved.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Chisel_Narrow.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Drawing_Knife.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Drill_Bit.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/File.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Gimlet.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Hand_Drill.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Hand_Saw.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Plane_Backward.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Plane_Forward.prefab
+Assets/CoolWorks_Studio/Carpentry_Tools/Prefabs/Rasp.prefab
+Assets/CoolWorks_Studio/Common/Prefabs/Example_Canvas.prefab
+Assets/CoolWorks_Studio/Common/Prefabs/Floor_Round.prefab
+Assets/Furry Squirrel/Prefab/Squirrel_HDRP.prefab
+Assets/Furry Squirrel/Prefab/Squirrel_URP.prefab
+Assets/ithappy/Animals_FREE/Prefabs/Chicken_001.prefab
+Assets/ithappy/Animals_FREE/Prefabs/Deer_001.prefab
+Assets/ithappy/Animals_FREE/Prefabs/Dog_001.prefab
+Assets/ithappy/Animals_FREE/Prefabs/Horse_001.prefab
+Assets/ithappy/Animals_FREE/Prefabs/Kitty_001.prefab
+Assets/ithappy/Animals_FREE/Prefabs/Pinguin_001.prefab
+Assets/ithappy/Animals_FREE/Prefabs/Tiger_001.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Other/Bush 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Other/Bush 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Other/Bush 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Other/Grass 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Other/Grass 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Other/Grass 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Other/Grass 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Other/Water.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 5.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 6.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 7.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 8.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 9.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 10.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 11.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock 12.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock Arc.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock Pile 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock Pile 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Rocks/Rock Pile 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Terrains/Canyon.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Terrains/Field.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Terrains/Forest.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Terrains/Lake.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Terrains/Mountain 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Terrains/Mountain 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Terrains/Mountain 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Pine 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Pine 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Pine 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Pine 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Pine 5.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Pine 6.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Tree 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Tree 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Tree 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Tree 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Tree 5.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Tree 6.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Tree 7.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/HDRP/Trees/Tree 8.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Other/Bush 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Other/Bush 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Other/Bush 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Other/Grass 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Other/Grass 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Other/Grass 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Other/Grass 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Other/Water.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 5.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 6.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 7.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 8.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 9.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 10.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 11.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock 12.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock Arc.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock Pile 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock Pile 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Rocks/Rock Pile 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Canyon.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Field.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Forest.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Lake.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Mountain 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Mountain 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Terrains/Mountain 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Pine 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Pine 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Pine 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Pine 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Pine 5.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Pine 6.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 5.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 6.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 7.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/Standard/Trees/Tree 8.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Bush 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Bush 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Bush 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Grass 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Grass 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Grass 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Grass 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Other/Water.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 5.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 6.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 7.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 8.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 9.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 10.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 11.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock 12.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock Arc.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock Pile 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock Pile 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Rocks/Rock Pile 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Canyon.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Field.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Forest.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Lake.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Mountain 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Mountain 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Terrains/Mountain 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 5.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Pine 6.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 1.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 2.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 3.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 4.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 5.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 6.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 7.prefab
+Assets/Low Poly Environment Starter Kit/Prefabs/URP/Trees/Tree 8.prefab
+Assets/Patchmesh/Stylized Critter Collection Demo/Prefabs/Caterpillar 1.prefab
+Assets/Patchmesh/Stylized Critter Collection Demo/Prefabs/Caterpillar 2.prefab
+Assets/Patchmesh/Stylized Critter Collection Demo/Prefabs/Ladybug Pink.prefab
+Assets/Patchmesh/Stylized Critter Collection Demo/Prefabs/Ladybug Red.prefab
+Assets/Patchmesh/Stylized Critter Collection Demo/Prefabs/Ladybug Yellow.prefab
+Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Fence.prefab
+Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Grass_02_v1.prefab
+Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Grass_02_v2.prefab
+Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_High_Grass_02_v1.prefab
+Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Poppy_02_v1.prefab
+Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_River_Rock_Pile_02_v1.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Flowers/PT_Poppy_02.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Mushrooms/PT_Caesars_Mushroom_01.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Plants/PT_Grass_02.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Generic_Rock_01.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Menhir_Rock_02.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01_split.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_River_Rock_Pile_02.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_dead.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_apples.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead_cut.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green_cut.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_logs.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_plums.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_stump.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead_cut.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green_cut.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_logs.prefab
+Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_stump.prefab
+Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Bridge/PT_Wooden_Bridge_02.prefab
+Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence/PT_Modular_Fence_Wood_01.prefab
+Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence/PT_Modular_Fence_Wood_02.prefab
+Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence/PT_Modular_Fence_Wood_03.prefab
+Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence/PT_Modular_Gate_Wood_01.prefab
+Assets/Prefabs/MagicProjectile.prefab
+Assets/Procedural Tree/Prefabs/Ash Tree.prefab
+Assets/Procedural Tree/Prefabs/Elm Tree.prefab
+Assets/Procedural Tree/Prefabs/Magnolia Tree.prefab
+Assets/Procedural Tree/Prefabs/Oak Tree.prefab
+Assets/Procedural Tree/Prefabs/Pine Tree.prefab
+Assets/Procedural Tree/Prefabs/Poplar Tree.prefab
+Assets/Rainy VFX/Prefab/Demo Prefab/Particle System (1).prefab
+Assets/Rainy VFX/Prefab/Demo Prefab/Particle System (2).prefab
+Assets/Rainy VFX/Prefab/Demo Prefab/Particle System (3).prefab
+Assets/Rainy VFX/Prefab/Demo Prefab/Particle System (4).prefab
+Assets/Rainy VFX/Prefab/Particle System (1).prefab
+Assets/Rainy VFX/Prefab/Particle System (2).prefab
+Assets/Rainy VFX/Prefab/Particle System.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_1.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_2.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Mushroom/forestpack_foliage_mushroom_blue_big.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Mushroom/forestpack_foliage_mushroom_red_small.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Sign/forestpack_roadSign_westEast_1.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_large_1.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Stone/forestpack_stone_medium_1.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Tree/Fir/forestpack_tree_fir_tall.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Tree/Leaf/Normal/forestpack_tree_1_leaf_1.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Tree/Treestump/forestpack_tree_stump_1.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/Mobile/Foliage/Grass/Mobile_forestpack_foliage_grassPatch_small_1.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/Mobile/Foliage/Grass/Mobile_forestpack_foliage_grassPatch_small_2.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/Mobile/Foliage/Mushroom/Mobile_forestpack_foliage_mushroom_blue_big.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/Mobile/Foliage/Mushroom/Mobile_forestpack_foliage_mushroom_red_small.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/Mobile/Sign/Mobile_forestpack_roadSign_westEast_1.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/Mobile/Stone/Mobile_forestpack_stone_large_1.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/Mobile/Stone/Mobile_forestpack_stone_medium_1.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/Mobile/Tree/Fir/Mobile_forestpack_tree_fir_tall.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/Mobile/Tree/Leaf/Normal/Mobile_forestpack_tree_1_leaf_1.prefab
+Assets/Supercyan Free Forest Sample/Prefabs/Mobile/Tree/Treestump/Mobile_forestpack_tree_stump_1.prefab
+
+=== MATERIALS ===
+Assets/Art/Materials/Mat_AncientStone.mat
+Assets/Art/Materials/Mat_BoarHide.mat
+Assets/Art/Materials/Mat_ButterflyWing.mat
+Assets/Art/Materials/Mat_CorruptVoid.mat
+Assets/Art/Materials/Mat_DeerFur.mat
+Assets/Art/Materials/Mat_DivineCyan.mat
+Assets/Art/Materials/Mat_FrogSkin.mat
+Assets/Art/Materials/Mat_GolemBasalt.mat
+Assets/Art/Materials/Mat_GuardianGold.mat
+Assets/Art/Materials/Mat_JaguarFur.mat
+Assets/Art/Materials/Mat_JungleLeaves.mat
+Assets/Art/Materials/Mat_JungleWood.mat
+Assets/Art/Materials/Mat_MonkeyFur.mat
+Assets/Art/Materials/Mat_MonkeySkin.mat
+Assets/Art/Materials/Mat_MossyRock.mat
+Assets/Art/Materials/Mat_PalmLeaves.mat
+Assets/Art/Materials/Mat_ParrotFeather.mat
+Assets/Art/Materials/Mat_PredatorSkin.mat
+Assets/Art/Materials/Mat_ReptileScale.mat
+Assets/Art/Materials/Mat_RuneActiveGlow.mat
+Assets/Art/Materials/Mat_SerpentScale.mat
+Assets/Art/Materials/Mat_ShadowEther.mat
+Assets/Art/Materials/Mat_TitanFur.mat
+Assets/CoolWorks_Studio/Carpentry_Tools/Materials/Axes.mat
+Assets/CoolWorks_Studio/Carpentry_Tools/Materials/Chisel_Broad.mat
+Assets/CoolWorks_Studio/Carpentry_Tools/Materials/Chisel_Curved.mat
+Assets/CoolWorks_Studio/Carpentry_Tools/Materials/Chisel_Narrow.mat
+Assets/CoolWorks_Studio/Carpentry_Tools/Materials/DrawingKnife_HandSaw.mat
+Assets/CoolWorks_Studio/Carpentry_Tools/Materials/DrillBit_File_Rasp.mat
+Assets/CoolWorks_Studio/Carpentry_Tools/Materials/Gimlet.mat
+Assets/CoolWorks_Studio/Carpentry_Tools/Materials/Hand_Drill.mat
+Assets/CoolWorks_Studio/Carpentry_Tools/Materials/Planes.mat
+Assets/CoolWorks_Studio/Common/Materials/Floor_Tiled_01.mat
+Assets/Furry Squirrel/Materials/Fur_HDRP_Generated/Squirrel_Cards_HDRP.mat
+Assets/Furry Squirrel/Materials/Fur_HDRP_Generated/Squirrel_Shell_HDRP.mat
+Assets/Furry Squirrel/Materials/Fur_URP_Generated/Squirrel_Cards_URP.mat
+Assets/Furry Squirrel/Materials/Fur_URP_Generated/Squirrel_Shell_URP.mat
+Assets/Furry Squirrel/Materials/Squirrel_HDRP.mat
+Assets/Furry Squirrel/Materials/Squirrel_URP.mat
+Assets/ithappy/Animals_FREE/Materials/Floor.mat
+Assets/ithappy/Animals_FREE/Materials/Material.mat
+Assets/ithappy/Animals_FREE/Skyboxes/Skybox_5.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Bark.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Bush.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Grass.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Ground.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Leaves 1.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Leaves 2.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Leaves 3.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Pine Bark.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Rock.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Snow.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Stone.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Tree Bark.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Water Material.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Bark.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Bush.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Grass.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Ground.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Leaves 1.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Leaves 2.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Leaves 3.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Pine Bark.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Rock.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Snow.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Stone.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Tree Bark.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Water Material.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Bark.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Bush.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Grass.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Ground.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Leaves 1.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Leaves 2.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Leaves 3.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Pine Bark.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Rock.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Snow.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Stone.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Sun.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Sunlight.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Tree Bark.mat
+Assets/Low Poly Environment Starter Kit/Source/Material/URP/Water Material.mat
+Assets/Materials/Mat_Ancient_Door.mat
+Assets/Materials/Mat_Banana_Food.mat
+Assets/Materials/Mat_Breakable_Relic.mat
+Assets/Materials/Mat_Checkpoint_Active.mat
+Assets/Materials/Mat_Climbable_Vine.mat
+Assets/Materials/Mat_Fire_Hazard.mat
+Assets/Materials/Mat_Gateway_Portal.mat
+Assets/Materials/Mat_Gold_Coin.mat
+Assets/Materials/Mat_Jungle_Ground.mat
+Assets/Materials/Mat_Magic_Projectile.mat
+Assets/Materials/Mat_Player_Monkey.mat
+Assets/Materials/Mat_Predator_Enemy.mat
+Assets/Materials/Mat_Rune_Active.mat
+Assets/Materials/Mat_Rune_Inactive.mat
+Assets/Materials/Mat_Toxic_Mushroom.mat
+Assets/Materials/Mat_Water_Stream.mat
+Assets/Materials/Mat_Wood_Platform.mat
+Assets/Patchmesh/Stylized Critter Collection Demo/Materials/Caterpillar 1.mat
+Assets/Patchmesh/Stylized Critter Collection Demo/Materials/Caterpillar 2.mat
+Assets/Patchmesh/Stylized Critter Collection Demo/Materials/Ladybug Pink.mat
+Assets/Patchmesh/Stylized Critter Collection Demo/Materials/Ladybug Red.mat
+Assets/Patchmesh/Stylized Critter Collection Demo/Materials/Ladybug Yellow.mat
+Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Plane mat.mat
+Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Grass_Mat 1.mat
+Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_High_Grass_Mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Fruit_Tree_Foliage_Mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Fruit_Tree_Opaque_mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Generic_Leaf_mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Generic_Tree_Leaves_mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Generic_Tree_Trunk_mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Grass_Mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Mushrooms_mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Pine_Tree_Leaves_Mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Pine_Tree_Trunk_Mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Poppy_mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Rocks_mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Skybox_mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Terrain_mat.mat
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Water_mat.mat
+Assets/Polytope Studio/Lowpoly_Village/Sources/Materials/PT_Buildings_mat.mat
+Assets/Polytope Studio/Lowpoly_Village/Sources/Materials/PT_mat.mat
+Assets/Procedural Tree/Materials/Ash Tree.mat
+Assets/Procedural Tree/Materials/Elm Tree.mat
+Assets/Procedural Tree/Materials/Magnolia Tree.mat
+Assets/Procedural Tree/Materials/Oak Tree.mat
+Assets/Procedural Tree/Materials/Pine Tree.mat
+Assets/Procedural Tree/Materials/Poplar Tree.mat
+Assets/Supercyan Free Forest Sample/Materials/High Quality/Foliage/forestpack_foliage.mat
+Assets/Supercyan Free Forest Sample/Materials/High Quality/SignAndBridge/forestpack_roadSignAndBridge.mat
+Assets/Supercyan Free Forest Sample/Materials/High Quality/Skybox/forestpack_skybox_lighter.mat
+Assets/Supercyan Free Forest Sample/Materials/High Quality/Skybox/forestpack_skybox_night.mat
+Assets/Supercyan Free Forest Sample/Materials/High Quality/Stone/forestpack_stone.mat
+Assets/Supercyan Free Forest Sample/Materials/High Quality/Tree/forestpack_tree_fir.mat
+Assets/Supercyan Free Forest Sample/Materials/High Quality/Tree/forestpack_tree_leaf.mat
+Assets/Supercyan Free Forest Sample/Materials/High Quality/Tree/forestpack_treeStumpAndRoot.mat
+Assets/Supercyan Free Forest Sample/Materials/Mobile/Foliage/forestpack_foliage_low.mat
+Assets/Supercyan Free Forest Sample/Materials/Mobile/SignAndBridge/forestpack_roadSignAndBridge_low.mat
+Assets/Supercyan Free Forest Sample/Materials/Mobile/Stone/forestpack_stone_low.mat
+Assets/Supercyan Free Forest Sample/Materials/Mobile/Tree/forestpack_tree_fir_low.mat
+Assets/Supercyan Free Forest Sample/Materials/Mobile/Tree/forestpack_tree_leaf_low.mat
+Assets/Supercyan Free Forest Sample/Materials/Mobile/Tree/forestpack_treeStumpAndRoot_low.mat
+
+=== TEXTURES ===
+Assets/Art/UI/UI_Banana_Food.png
+Assets/Art/UI/UI_Btn_Attack.png
+Assets/Art/UI/UI_Btn_Blast.png
+Assets/Art/UI/UI_Btn_Jump.png
+Assets/Art/UI/UI_Btn_Smash.png
+Assets/Art/UI/UI_Coin_Gold.png
+Assets/Art/UI/UI_Energy_Bolt.png
+Assets/Art/UI/UI_Gem_Diamond.png
+Assets/Art/UI/UI_Heart_Health.png
+Assets/Art/UI/UI_Joypad_Base.png
+Assets/Art/UI/UI_Joypad_Knob.png
+Assets/Art/UI/UI_Panel_Frame.png
+Assets/Art/UI/UI_Star_Rating.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Examples/Carpentry_Tools/Lightmap-0_comp_dir.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Examples/Carpentry_Tools/Lightmap-0_comp_light.exr
+Assets/CoolWorks_Studio/Carpentry_Tools/Examples/Carpentry_Tools/ReflectionProbe-0.exr
+Assets/CoolWorks_Studio/Carpentry_Tools/Examples/Carpentry_Tools/ReflectionProbe-1.exr
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Axes_albedo.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Axes_ao.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Axes_normal.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Axes_spec.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Broad_albedo.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Broad_ao.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Broad_normal.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Broad_spec.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Curved_albedo.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Curved_ao.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Curved_normal.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Curved_spec.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Narrow_albedo.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Narrow_ao.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Narrow_normal.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Chisel_Narrow_spec.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/DrawingKnife_HandSaw_albedo.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/DrawingKnife_HandSaw_ao.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/DrawingKnife_HandSaw_normal.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/DrawingKnife_HandSaw_spec.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/DrillBit_File_Rasp_albedo.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/DrillBit_File_Rasp_ao.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/DrillBit_File_Rasp_normal.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/DrillBit_File_Rasp_spec.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Gimlet_albedo.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Gimlet_ao.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Gimlet_normal.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Gimlet_spec.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Hand_Drill_albedo.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Hand_Drill_ao.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Hand_Drill_normal.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Hand_Drill_spec.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Planes_albedo.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Planes_ao.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Planes_normal.png
+Assets/CoolWorks_Studio/Carpentry_Tools/Textures/Planes_spec.png
+Assets/CoolWorks_Studio/Common/Textures/FloorCheckerboard_albedo.png
+Assets/CoolWorks_Studio/Common/Textures/FloorCheckerboard_normal.png
+Assets/Furry Squirrel/Textures/Fur_Textures/Squirrel_LOD0_FurCardsAtlas.png
+Assets/Furry Squirrel/Textures/Squirrel_AlbedoTransparency.png
+Assets/Furry Squirrel/Textures/Squirrel_MaskMap.png
+Assets/Furry Squirrel/Textures/Squirrel_MetallicSmoothness.png
+Assets/Furry Squirrel/Textures/Squirrel_Normal.png
+Assets/ithappy/Animals_FREE/Skyboxes/Skybox_Textures/Skybox_5.png
+Assets/ithappy/Animals_FREE/Textures/Texture.png
+Assets/Low Poly Environment Starter Kit/Source/Textues/Grass.png
+Assets/Low Poly Environment Starter Kit/Source/Textues/Pine.png
+Assets/Low Poly Environment Starter Kit/Source/Textues/Tree.png
+Assets/Low Poly Environment Starter Kit/Source/Textues/Water 1.png
+Assets/Low Poly Environment Starter Kit/Source/Textues/Water 2.png
+Assets/Patchmesh/Stylized Critter Collection Demo/Textures/Caterpillar_1.png
+Assets/Patchmesh/Stylized Critter Collection Demo/Textures/Caterpillar_2.png
+Assets/Patchmesh/Stylized Critter Collection Demo/Textures/Caterpillar_Normal_DirectX 1.png
+Assets/Patchmesh/Stylized Critter Collection Demo/Textures/Ladybug_Normal.png
+Assets/Patchmesh/Stylized Critter Collection Demo/Textures/Ladybug_Pink.png
+Assets/Patchmesh/Stylized Critter Collection Demo/Textures/Ladybug_Red.png
+Assets/Patchmesh/Stylized Critter Collection Demo/Textures/Ladybug_Yellow.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Flowers_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Leaves_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Generic_Leaves_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Generic_Tree_Leaves_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_High_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Ground_Generic_03.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Ground_Grass_Green_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Mushrooms_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Pine_Tree_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Poppy_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Rocks_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Runes_02.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Skybox_Texture_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Tree_Trunk_01.png
+Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Water_NM_01.png
+Assets/Polytope Studio/Lowpoly_Village/Sources/Textures/PT_Medieval_Buildings_Texture_01.png
+Assets/Polytope Studio/Lowpoly_Village/Sources/Textures/PT_Medieval_Buildings_Texture_01mask2.png
+Assets/Polytope Studio/Lowpoly_Village/Sources/Textures/PT_Medieval_Buildings_Texture_Mask_01.png
+Assets/Polytope Studio/Lowpoly_Village/Sources/Textures/PT_texture.tga
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/banner_dark.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/demo1.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/demo2.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/game1.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/game2.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/game3.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/game4.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/game5.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/game6.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/icon_artstation.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/icon_facebook.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/icon_Instagram.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/icon_Tiktok.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/icon_twitter.png
+Assets/Polytope Studio/Welcome_Screen/Editor/Textures/icon_Youtube.png
+Assets/Procedural Tree/Textures/Ash Tree Bark.png
+Assets/Procedural Tree/Textures/Ash Tree Leaf.png
+Assets/Procedural Tree/Textures/Elm Tree Bark.png
+Assets/Procedural Tree/Textures/Elm Tree Leaf.png
+Assets/Procedural Tree/Textures/Magnolia Tree Bark.png
+Assets/Procedural Tree/Textures/Magnolia Tree Leaf.png
+Assets/Procedural Tree/Textures/Oak Tree Bark.png
+Assets/Procedural Tree/Textures/Oak Tree Leaf.png
+Assets/Procedural Tree/Textures/Pine Tree Bark.png
+Assets/Procedural Tree/Textures/Pine Tree Leaf.png
+Assets/Procedural Tree/Textures/Poplar Tree Bark.png
+Assets/Procedural Tree/Textures/Poplar Tree Leaf.png
+Assets/Supercyan Free Forest Sample/Scenes/AllFreeForestSampleAssets/ReflectionProbe-0.exr
+Assets/Supercyan Free Forest Sample/Scenes/BrightDay/ReflectionProbe-0.exr
+Assets/Supercyan Free Forest Sample/Scenes/MoodyNight/ReflectionProbe-0.exr
+Assets/Supercyan Free Forest Sample/Textures/Foliage/forestpack_foliage_diffuse.png
+Assets/Supercyan Free Forest Sample/Textures/Ground/forestpack_moss_light_tile_diffuse.png
+Assets/Supercyan Free Forest Sample/Textures/Ground/forestpack_road_tile_diffuse.png
+Assets/Supercyan Free Forest Sample/Textures/Ground/forestpack_texture_rock_tile_diffuse.png
+Assets/Supercyan Free Forest Sample/Textures/Ramp/sharedTexture_shadowRamp.png
+Assets/Supercyan Free Forest Sample/Textures/SignAndBridge/forestpack_roadSignAndBridge_diffuse.png
+Assets/Supercyan Free Forest Sample/Textures/Skybox/nx.png
+Assets/Supercyan Free Forest Sample/Textures/Skybox/ny.png
+Assets/Supercyan Free Forest Sample/Textures/Skybox/nz.png
+Assets/Supercyan Free Forest Sample/Textures/Skybox/px.png
+Assets/Supercyan Free Forest Sample/Textures/Skybox/py.png
+Assets/Supercyan Free Forest Sample/Textures/Skybox/pz.png
+Assets/Supercyan Free Forest Sample/Textures/Stone/forestpack_stone_diffuse.png
+Assets/Supercyan Free Forest Sample/Textures/Tree/Fir/forestpack_tree_fir_diffuse.png
+Assets/Supercyan Free Forest Sample/Textures/Tree/Leaf/forestpack_tree_leaf_diffuse.png
+Assets/Supercyan Free Forest Sample/Textures/Tree/Treestump/forestpack_treeStumpAndRoot_diffuse.png
+
+=== ANIMATIONS / CONTROLLERS ===
+Assets/Furry Squirrel/Animations/Animations_Squirrel.controller
+Assets/ithappy/Animals_FREE/Animations/Animation_Controllers/Chicken.controller
+Assets/ithappy/Animals_FREE/Animations/Animation_Controllers/Deer.controller
+Assets/ithappy/Animals_FREE/Animations/Animation_Controllers/Dog.controller
+Assets/ithappy/Animals_FREE/Animations/Animation_Controllers/Horse.controller
+Assets/ithappy/Animals_FREE/Animations/Animation_Controllers/Kitty.controller
+Assets/ithappy/Animals_FREE/Animations/Animation_Controllers/Pinguin.controller
+Assets/ithappy/Animals_FREE/Animations/Animation_Controllers/Tiger.controller
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Chicken_001_idle.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Chicken_002_run.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Chicken_003_walk.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Deer_001_idle.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Deer_001_run.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Deer_001_walk.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Dog_001_idle.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Dog_001_run.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Dog_001_walk.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_eat.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_idle.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_run.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_walk.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Kitty_001_idle.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Kitty_001_run.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Kitty_001_walk.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Pinguin_001_idle.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Pinguin_001_run.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Pinguin_001_walk.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Tiger_001_idle.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Tiger_001_idle_rare.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Tiger_001_run.anim
+Assets/ithappy/Animals_FREE/Animations/Other_Animations/Tiger_001_walk.anim
+Assets/Patchmesh/Stylized Critter Collection Demo/Animations/Beetle_Rig_Beetle_Flying.anim
+Assets/Patchmesh/Stylized Critter Collection Demo/Animations/Beetle_Rig_Beetle_Idle.anim
+Assets/Patchmesh/Stylized Critter Collection Demo/Animations/Beetle_Rig_Beetle_Take Off.anim
+Assets/Patchmesh/Stylized Critter Collection Demo/Animations/Beetle_Rig_Beetle_Walk.anim
+Assets/Patchmesh/Stylized Critter Collection Demo/Animations/Caterpillar.controller
+Assets/Patchmesh/Stylized Critter Collection Demo/Animations/Caterpillar_Rig_Caterpillar_Move.anim
+Assets/Patchmesh/Stylized Critter Collection Demo/Animations/Ladybug.controller
+
+=== AUDIO ===
+Assets/Art/Audio/BGM_Act1.wav
+Assets/Art/Audio/BGM_Act2.wav
+Assets/Art/Audio/BGM_Act3.wav
+Assets/Art/Audio/BGM_Act4.wav
+Assets/Art/Audio/BGM_Act5.wav
+Assets/Art/Audio/BGM_Boss.wav
+Assets/Art/Audio/SFX_Attack.wav
+Assets/Art/Audio/SFX_Banana.wav
+Assets/Art/Audio/SFX_BossRoar.wav
+Assets/Art/Audio/SFX_Checkpoint.wav
+Assets/Art/Audio/SFX_Coin.wav
+Assets/Art/Audio/SFX_Death.wav
+Assets/Art/Audio/SFX_DoorOpen.wav
+Assets/Art/Audio/SFX_EnemyHit.wav
+Assets/Art/Audio/SFX_EnergyBlast.wav
+Assets/Art/Audio/SFX_FireCrackle.wav
+Assets/Art/Audio/SFX_Footstep.wav
+Assets/Art/Audio/SFX_HeavyAttack.wav
+Assets/Art/Audio/SFX_Hurt.wav
+Assets/Art/Audio/SFX_Jump.wav
+Assets/Art/Audio/SFX_Land.wav
+Assets/Art/Audio/SFX_LevelComplete.wav
+Assets/Art/Audio/SFX_PoisonBubble.wav
+Assets/Art/Audio/SFX_RuneActivate.wav
+Assets/Art/Audio/SFX_UIClick.wav
+Assets/Art/Audio/SFX_WaterSplash.wav

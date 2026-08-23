@@ -1,0 +1,1553 @@
+================================================================================
+HD ENVIRONMENT VISUAL MATERIAL AUDIT
+================================================================================
+Timestamp: 2026-08-23 08:18:42
+Audit Target: AI_GENERATED_LEVEL/HD_REPLACEMENTS, AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW
+Status: PASS WITH WARNINGS
+
+Environment Objects Found: 253
+Renderers Found: 158
+Material Slots Found: 170
+
+URP Compatible: 170
+Built-in Standard: 0
+InternalErrorShader: 0
+Missing Material: 0
+Missing Shader: 0
+Magenta Suspects: 0
+Auto-Fixed Slots: 0
+Remaining Errors: 0
+Warnings: 6
+--------------------------------------------------------------------------------
+DETAILED SLOT AUDIT:
+--------------------------------------------------------------------------------
+[CLEAN] HD_Tree_Path_L_18 (Renderer: HD_Tree_Path_L_18 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Path_L_18
+  Material: forestpack_tree_fir_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Path_R_18 (Renderer: HD_Tree_Path_R_18 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Path_R_18
+  Material: forestpack_tree_leaf_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Path_L_26 (Renderer: HD_Tree_Path_L_26 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Path_L_26
+  Material: forestpack_treeStumpAndRoot_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Path_R_26 (Renderer: HD_Tree_Path_R_26 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Path_R_26
+  Material: forestpack_tree_fir_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Path_L_34 (Renderer: HD_Tree_Path_L_34 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Path_L_34
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Path_R_34 (Renderer: HD_Tree_Path_R_34 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Path_R_34
+  Material: forestpack_treeStumpAndRoot_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Path_L_42 (Renderer: HD_Tree_Path_L_42 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Path_L_42
+  Material: forestpack_tree_fir_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Path_R_42 (Renderer: HD_Tree_Path_R_42 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Path_R_42
+  Material: forestpack_tree_leaf_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_FruitGlade_L1 (Renderer: HD_Tree_FruitGlade_L1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_FruitGlade_L1
+  Material: forestpack_treeStumpAndRoot_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_FruitGlade_R1 (Renderer: HD_Tree_FruitGlade_R1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_FruitGlade_R1
+  Material: forestpack_tree_fir_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_FruitGlade_L2 (Renderer: HD_Tree_FruitGlade_L2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_FruitGlade_L2
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_FruitGlade_R2 (Renderer: HD_Tree_FruitGlade_R2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_FruitGlade_R2
+  Material: forestpack_treeStumpAndRoot_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Ancient_L1 (Renderer: HD_Tree_Ancient_L1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Ancient_L1
+  Material: forestpack_tree_fir_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Ancient_R1 (Renderer: HD_Tree_Ancient_R1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Ancient_R1
+  Material: forestpack_tree_leaf_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Ancient_L2 (Renderer: HD_Tree_Ancient_L2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Ancient_L2
+  Material: forestpack_treeStumpAndRoot_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Ancient_R2 (Renderer: HD_Tree_Ancient_R2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Ancient_R2
+  Material: forestpack_tree_fir_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_02 (Renderer: HD_Tree_Perimeter_02 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_02
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_03 (Renderer: HD_Tree_Perimeter_03 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_03
+  Material: forestpack_treeStumpAndRoot_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_04 (Renderer: HD_Tree_Perimeter_04 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_04
+  Material: forestpack_tree_fir_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_05 (Renderer: HD_Tree_Perimeter_05 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_05
+  Material: forestpack_tree_leaf_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_06 (Renderer: HD_Tree_Perimeter_06 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_06
+  Material: forestpack_treeStumpAndRoot_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_07 (Renderer: HD_Tree_Perimeter_07 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_07
+  Material: forestpack_tree_fir_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_08 (Renderer: HD_Tree_Perimeter_08 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_08
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_09 (Renderer: HD_Tree_Perimeter_09 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_09
+  Material: forestpack_treeStumpAndRoot_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_11 (Renderer: HD_Tree_Perimeter_11 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_11
+  Material: forestpack_tree_fir_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_12 (Renderer: HD_Tree_Perimeter_12 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_12
+  Material: forestpack_tree_leaf_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_13 (Renderer: HD_Tree_Perimeter_13 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_13
+  Material: forestpack_treeStumpAndRoot_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_14 (Renderer: HD_Tree_Perimeter_14 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_14
+  Material: forestpack_tree_fir_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_15 (Renderer: HD_Tree_Perimeter_15 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_15
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_16 (Renderer: HD_Tree_Perimeter_16 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_16
+  Material: forestpack_treeStumpAndRoot_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_17 (Renderer: HD_Tree_Perimeter_17 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_17
+  Material: forestpack_tree_fir_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_18 (Renderer: HD_Tree_Perimeter_18 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_18
+  Material: forestpack_tree_leaf_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_19 (Renderer: HD_Tree_Perimeter_19 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Tree/HD_Tree_Perimeter_19
+  Material: forestpack_treeStumpAndRoot_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Rock_Border_01 (Renderer: HD_Rock_Border_01 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Rock/HD_Rock_Border_01
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Rock_Border_02 (Renderer: HD_Rock_Border_02 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Rock/HD_Rock_Border_02
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Obstacle_SideRock_L (Renderer: HD_Obstacle_SideRock_L [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Rock/HD_Obstacle_SideRock_L
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Obstacle_SideRock_R (Renderer: HD_Obstacle_SideRock_R [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Rock/HD_Obstacle_SideRock_R
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Rock_Arena_L (Renderer: HD_Rock_Arena_L [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Rock/HD_Rock_Arena_L
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Rock_Arena_R (Renderer: HD_Rock_Arena_R [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Rock/HD_Rock_Arena_R
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_SteppingStone_1 (Renderer: HD_SteppingStone_1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Rock/HD_SteppingStone_1
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_SteppingStone_2 (Renderer: HD_SteppingStone_2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Rock/HD_SteppingStone_2
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_SteppingStone_3 (Renderer: HD_SteppingStone_3 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Rock/HD_SteppingStone_3
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_SteppingStone_4 (Renderer: HD_SteppingStone_4 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS/Rock/HD_SteppingStone_4
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_L_18/Pine5/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_L_18/Pine5/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_R_18/Pine6/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_R_18/Pine6/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_L_26/Tree_1/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_L_26/Tree_1/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_R_26/Tree_2/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_R_26/Tree_2/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_L_34/Tree_3/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_L_34/Tree_3/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_R_34/Tree_4/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_R_34/Tree_4/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_L_42/Tree_5/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_L_42/Tree_5/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_R_42/Tree_6/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Path_R_42/Tree_6/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L1/Tree_7/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L1/Tree_7/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_R1/Tree_8/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_R1/Tree_8/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Palm_Trunk (Renderer: Palm_Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L2/Palm_Trunk
+  Material: Mat_HD_PalmTrunk (Assets/Art/Environment/HD/Materials/Mat_HD_PalmTrunk.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Road_Lieves_1_AlbedoTransparency | BaseColor: #AD947AFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_00 (Renderer: Frond_00 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L2/Palm_Crown/Frond_00
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_01 (Renderer: Frond_01 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L2/Palm_Crown/Frond_01
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_02 (Renderer: Frond_02 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L2/Palm_Crown/Frond_02
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_03 (Renderer: Frond_03 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L2/Palm_Crown/Frond_03
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_04 (Renderer: Frond_04 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L2/Palm_Crown/Frond_04
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_05 (Renderer: Frond_05 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L2/Palm_Crown/Frond_05
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_06 (Renderer: Frond_06 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L2/Palm_Crown/Frond_06
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_07 (Renderer: Frond_07 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L2/Palm_Crown/Frond_07
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_08 (Renderer: Frond_08 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L2/Palm_Crown/Frond_08
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_09 (Renderer: Frond_09 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_L2/Palm_Crown/Frond_09
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_FruitGlade_R2 (Renderer: HD_Tree_FruitGlade_R2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_FruitGlade_R2
+  Material: forestpack_tree_fir_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_02 (Renderer: HD_Tree_Perimeter_02 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_02
+  Material: forestpack_treeStumpAndRoot_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_treeStumpAndRoot_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_03/Pine1/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_03/Pine1/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_04/Pine2/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_04/Pine2/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_05/Pine3/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_05/Pine3/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_06/Pine4/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_06/Pine4/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_07/Pine5/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_07/Pine5/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_08/Pine6/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_08/Pine6/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_09/Tree_1/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_09/Tree_1/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_11/Tree_2/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_11/Tree_2/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_12/Tree_3/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_12/Tree_3/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_13/Tree_4/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_13/Tree_4/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_14/Tree_5/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_14/Tree_5/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_15/Tree_6/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_15/Tree_6/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_16/Tree_7/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_16/Tree_7/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves (Renderer: Leaves [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_17/Tree_8/Leaves
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk (Renderer: Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_17/Tree_8/Trunk
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Palm_Trunk (Renderer: Palm_Trunk [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_18/Palm_Trunk
+  Material: Mat_HD_PalmTrunk (Assets/Art/Environment/HD/Materials/Mat_HD_PalmTrunk.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Road_Lieves_1_AlbedoTransparency | BaseColor: #AD947AFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_00 (Renderer: Frond_00 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_18/Palm_Crown/Frond_00
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_01 (Renderer: Frond_01 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_18/Palm_Crown/Frond_01
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_02 (Renderer: Frond_02 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_18/Palm_Crown/Frond_02
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_03 (Renderer: Frond_03 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_18/Palm_Crown/Frond_03
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_04 (Renderer: Frond_04 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_18/Palm_Crown/Frond_04
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_05 (Renderer: Frond_05 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_18/Palm_Crown/Frond_05
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_06 (Renderer: Frond_06 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_18/Palm_Crown/Frond_06
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_07 (Renderer: Frond_07 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_18/Palm_Crown/Frond_07
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_08 (Renderer: Frond_08 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_18/Palm_Crown/Frond_08
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Frond_09 (Renderer: Frond_09 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_18/Palm_Crown/Frond_09
+  Material: Mat_HD_PalmFrond (Assets/Art/Environment/HD/Materials/Mat_HD_PalmFrond.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_Bilboard | BaseColor: #D1F2BFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.30) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Perimeter_19 (Renderer: HD_Tree_Perimeter_19 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Tree/HD_Tree_Perimeter_19
+  Material: forestpack_tree_fir_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_fir_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_fir_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Stone_2 (Renderer: Stone_2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Rock/HD_Rock_Border_01/Stone_2
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Stone_13 (Renderer: Stone_13 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Rock/HD_Rock_Border_02/Stone_13
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Stone_4 (Renderer: Stone_4 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Rock/HD_Obstacle_SideRock_L/Stone_4
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Stone_5 (Renderer: Stone_5 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Rock/HD_Obstacle_SideRock_R/Stone_5
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Stone_6 (Renderer: Stone_6 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Rock/HD_Rock_Arena_L/Stone_6
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Stone_7 (Renderer: Stone_7 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Rock/HD_Rock_Arena_R/Stone_7
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_SteppingStone_1 (Renderer: HD_SteppingStone_1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/RiverRock/HD_SteppingStone_1
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_SteppingStone_2 (Renderer: HD_SteppingStone_2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/RiverRock/HD_SteppingStone_2
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_SteppingStone_3 (Renderer: HD_SteppingStone_3 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/RiverRock/HD_SteppingStone_3
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_SteppingStone_4 (Renderer: HD_SteppingStone_4 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/RiverRock/HD_SteppingStone_4
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Canyon (Renderer: Canyon [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_StartZone/Canyon
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Canyon (Renderer: Canyon [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_StartZone/Canyon
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Bushes (Renderer: Bushes [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_JunglePath/Fields/Bushes
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Grass1 (Renderer: Grass1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_JunglePath/Fields/Grass1
+  Material: Grass_6_Bilboard (Assets/FlipGameDev/Terrain&GrassPack/Art/Materials/Bilboard/Grass_6_Bilboard.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_2_Bilboard | BaseColor: #FFFFFFFF
+  Surface: Transparent | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Grass2 (Renderer: Grass2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_JunglePath/Fields/Grass2
+  Material: Grass_6_Bilboard (Assets/FlipGameDev/Terrain&GrassPack/Art/Materials/Bilboard/Grass_6_Bilboard.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_2_Bilboard | BaseColor: #FFFFFFFF
+  Surface: Transparent | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Plane (Renderer: Plane [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_JunglePath/Fields/Plane
+  Material: Mat_Jungle_Ground (Assets/Materials/Mat_Jungle_Ground.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Road_Lieves_1_AlbedoTransparency | BaseColor: #D9CCBFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trees (Renderer: Trees [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_JunglePath/Fields/Trees
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trees (Renderer: Trees [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_JunglePath/Fields/Trees
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Landscape.002 (Renderer: Landscape.002 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_FruitClearing/Forest/Landscape.002
+  Material: Grass_6_Bilboard (Assets/FlipGameDev/Terrain&GrassPack/Art/Materials/Bilboard/Grass_6_Bilboard.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_2_Bilboard | BaseColor: #FFFFFFFF
+  Surface: Transparent | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves.002 (Renderer: Leaves.002 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_FruitClearing/Forest/Leaves.002
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves.002 (Renderer: Leaves.002 [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_FruitClearing/Forest/Leaves.002
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk.001 (Renderer: Trunk.001 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_FruitClearing/Forest/Trunk.001
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk.001 (Renderer: Trunk.001 [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_FruitClearing/Forest/Trunk.001
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Mountain_1 (Renderer: Mountain_1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_ObstacleSection/Mountain_1
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Mountain_1 (Renderer: Mountain_1 [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_ObstacleSection/Mountain_1
+  Material: M_Fog_Ground_URP (Assets/RainSnowCloudEffect/Materials/M_Fog_Ground_URP.mat)
+  Shader: Universal Render Pipeline/Particles/Unlit (Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader)
+  BaseMap: T_Fog_Main | BaseColor: #9EA6B88C
+  Surface: Transparent | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Mountain_2 (Renderer: Mountain_2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_EnemyArena/Mountain_2
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Mountain_2 (Renderer: Mountain_2 [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_EnemyArena/Mountain_2
+  Material: M_Fog_Ground_URP (Assets/RainSnowCloudEffect/Materials/M_Fog_Ground_URP.mat)
+  Shader: Universal Render Pipeline/Particles/Unlit (Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader)
+  BaseMap: T_Fog_Main | BaseColor: #9EA6B88C
+  Surface: Transparent | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Landscape.002 (Renderer: Landscape.002 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_CheckpointZone/Forest/Landscape.002
+  Material: Grass_6_Bilboard (Assets/FlipGameDev/Terrain&GrassPack/Art/Materials/Bilboard/Grass_6_Bilboard.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_2_Bilboard | BaseColor: #FFFFFFFF
+  Surface: Transparent | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves.002 (Renderer: Leaves.002 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_CheckpointZone/Forest/Leaves.002
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Leaves.002 (Renderer: Leaves.002 [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_CheckpointZone/Forest/Leaves.002
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk.001 (Renderer: Trunk.001 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_CheckpointZone/Forest/Trunk.001
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Trunk.001 (Renderer: Trunk.001 [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_CheckpointZone/Forest/Trunk.001
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Mountain_1 (Renderer: Mountain_1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_FinishPlaza/Mountain_1
+  Material: forestpack_stone_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Mountain_1 (Renderer: Mountain_1 [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Ground/HD_Ground_FinishPlaza/Mountain_1
+  Material: M_Fog_Ground_URP (Assets/RainSnowCloudEffect/Materials/M_Fog_Ground_URP.mat)
+  Shader: Universal Render Pipeline/Particles/Unlit (Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader)
+  BaseMap: T_Fog_Main | BaseColor: #9EA6B88C
+  Surface: Transparent | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Grass (Renderer: Grass [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Grass
+  Material: Grass_6_Bilboard (Assets/FlipGameDev/Terrain&GrassPack/Art/Materials/Bilboard/Grass_6_Bilboard.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Brake_Ferns_2_Bilboard | BaseColor: #FFFFFFFF
+  Surface: Transparent | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Landscape (Renderer: Landscape [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Landscape
+  Material: M_Snow_Foreground_URP (Assets/RainSnowCloudEffect/Materials/M_Snow_Foreground_URP.mat)
+  Shader: Universal Render Pipeline/Particles/Unlit (Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader)
+  BaseMap: T_Snowflake_Main | BaseColor: #F2F7FFB2
+  Surface: Transparent | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[WARNING] Landscape (Renderer: Landscape [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Landscape
+  Material: Rock_URP (Assets/AILevelBuilder/HD/URPMaterials/Rock_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: (None) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
+[CLEAN] Tree1 (Renderer: Tree1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Tree1
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] Tree1 (Renderer: Tree1 [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Tree1
+  Material: M_Recovered_Ash_Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Recovered/M_Recovered_Ash_Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: Ash_Bark | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[WARNING] Tree6 (Renderer: Tree6 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Tree6
+  Material: Tree Bark_URP (Assets/AILevelBuilder/HD/URPMaterials/Tree Bark_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: (None) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
+[CLEAN] Tree6 (Renderer: Tree6 [MeshRenderer] Slot 1)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Tree6
+  Material: forestpack_tree_leaf_low_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_tree_leaf_low_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_tree_leaf_diffuse | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: True (Cutoff: 0.50) | Cull: Off (Two-Sided)
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[WARNING] Water Plane (Renderer: Water Plane [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Water Plane
+  Material: Water Material (Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Water Material.mat)
+  Shader: Shader Graphs/Water_HDRP (Assets/Low Poly Environment Starter Kit/Source/Shader/HDRP/Water_HDRP.shadergraph)
+  BaseMap: (No BaseMap property) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
+[WARNING] Water Plane (Renderer: Water Plane [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverExitBank/Water Plane
+  Material: Water Material (Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Water Material.mat)
+  Shader: Shader Graphs/Water_HDRP (Assets/Low Poly Environment Starter Kit/Source/Shader/HDRP/Water_HDRP.shadergraph)
+  BaseMap: (No BaseMap property) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
+[WARNING] Water Plane (Renderer: Water Plane [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Water_RiverChannel/Water Plane
+  Material: Water Material (Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Water Material.mat)
+  Shader: Shader Graphs/Water_HDRP (Assets/Low Poly Environment Starter Kit/Source/Shader/HDRP/Water_HDRP.shadergraph)
+  BaseMap: (No BaseMap property) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
+[CLEAN] HD_Ground_AncientClearing (Renderer: HD_Ground_AncientClearing [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/AncientStone/HD_Ground_AncientClearing
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Ancient_L1 (Renderer: HD_Tree_Ancient_L1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/AncientStone/HD_Tree_Ancient_L1
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Ancient_R1 (Renderer: HD_Tree_Ancient_R1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/AncientStone/HD_Tree_Ancient_R1
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Ancient_L2 (Renderer: HD_Tree_Ancient_L2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/AncientStone/HD_Tree_Ancient_L2
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Tree_Ancient_R2 (Renderer: HD_Tree_Ancient_R2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/AncientStone/HD_Tree_Ancient_R2
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Ruin_Pillar_L1 (Renderer: HD_Ruin_Pillar_L1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/AncientStone/HD_Ruin_Pillar_L1
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Ruin_Pillar_R1 (Renderer: HD_Ruin_Pillar_R1 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/AncientStone/HD_Ruin_Pillar_R1
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Ruin_Pillar_L2 (Renderer: HD_Ruin_Pillar_L2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/AncientStone/HD_Ruin_Pillar_L2
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[CLEAN] HD_Ruin_Pillar_R2 (Renderer: HD_Ruin_Pillar_R2 [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/AncientStone/HD_Ruin_Pillar_R2
+  Material: forestpack_stone_URP (Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat)
+  Shader: Universal Render Pipeline/Lit (Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader)
+  BaseMap: forestpack_stone_diffuse | BaseColor: #CCCCCCFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP Compatible Lit shader.
+
+[WARNING] Rock_Arc (Renderer: Rock_Arc [MeshRenderer] Slot 0)
+  Hierarchy Path: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Arch/HD_Ruin_Arch_Top1/Rock_Arc
+  Material: Rock (Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Rock.mat)
+  Shader: Shader Graphs/Color_HDRP (Assets/Low Poly Environment Starter Kit/Source/Shader/HDRP/Color_HDRP.shadergraph)
+  BaseMap: (No BaseMap property) | BaseColor: #FFFFFFFF
+  Surface: Opaque | AlphaClip: False (Cutoff: 0.50) | Cull: Back
+  URP Compatible: True | Built-in Standard: False | Magenta Risk: False
+  Diagnostic Reason: URP material has no BaseMap texture and BaseColor is near pure white. Risk of flat white blowout/washout.
+
