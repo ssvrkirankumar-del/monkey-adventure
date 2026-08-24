@@ -1,10 +1,10 @@
 HD ENVIRONMENT MASTER VISUAL QA REPORT
 =======================================
-Overall: 81/100
+Overall: 83/100
 
 SCORES
 Materials: 88
-Terrain: 25
+Terrain: 40
 Vegetation: 86
 Mountains: 86
 Water: 100
@@ -15,7 +15,6 @@ Gameplay: 95
 Performance: 88
 
 CRITICAL
-- Blue/cyan ground material risk detected; investigate before vegetation dressing.
 - White/untextured terrain risk detected.
 - White/untextured visual risk detected: 6 slots.
 
@@ -23,7 +22,7 @@ WARNINGS
 - Vegetation categories missing/undetected: 1. Auto-dresser will use available HD assets and report missing categories.
 
 CATEGORY REPORT
-[25/100] Ground / Terrain | Found=48 | Issues=6 | Ground-like objects: 48. White/untextured risks: 5. Blue material risks: 1. Final forest floor must not look like a flat green mat.
+[40/100] Ground / Terrain | Found=48 | Issues=5 | Ground-like objects: 48. White/untextured risks: 5. Blue material risks: 0. Final forest floor must not look like a flat green mat.
 [86/100] Mountains / Hills | Found=6 | Issues=0 | Detected 6 relevant object(s). Material, scale, placement and visual integration must be checked.
 [86/100] Vegetation | Found=302 | Issues=1 | Trees 267 | Grass 5 | Ferns 0 | Bushes 3 | Leaf litter 27. Distribution must vary by zone and preserve a clear player corridor.
 [100/100] Water / River | Found=23 | Issues=0 | Detected 23 relevant object(s). Material, scale, placement and visual integration must be checked.

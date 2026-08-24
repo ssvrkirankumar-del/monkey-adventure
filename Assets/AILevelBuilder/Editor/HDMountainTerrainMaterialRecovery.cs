@@ -550,10 +550,25 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
 
         private static Color GetBaseColor(Material m)
         {
-            if (m == null) return Color.white;
-            if (m.HasProperty("_BaseColor")) return m.GetColor("_BaseColor");
-            if (m.HasProperty("_Color")) return m.GetColor("_Color");
+            if (m == null || m.shader == null) return Color.white;
+            if (HasColorProperty(m, "_BaseColor")) return m.GetColor("_BaseColor");
+            if (HasColorProperty(m, "_Color")) return m.GetColor("_Color");
             return Color.white;
+        }
+
+        private static bool HasColorProperty(Material m, string propName)
+        {
+            if (m == null || m.shader == null) return false;
+            Shader s = m.shader;
+            int count = s.GetPropertyCount();
+            for (int i = 0; i < count; i++)
+            {
+                if (s.GetPropertyName(i) == propName)
+                {
+                    return s.GetPropertyType(i) == UnityEngine.Rendering.ShaderPropertyType.Color;
+                }
+            }
+            return false;
         }
 
         private static bool IsNearlyWhite(Color c)

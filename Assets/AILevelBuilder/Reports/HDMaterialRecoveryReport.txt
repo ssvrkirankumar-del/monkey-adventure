@@ -1,35 +1,15 @@
 ================================================================================
 HD MATERIAL RECOVERY REPORT
-Generated: 2026-08-23 08:23:26
+Generated: 2026-08-24 21:34:10
 ================================================================================
 Scope: Preview
-Total Items Scanned: 6
+Total Items Scanned: 5
 High Confidence (90-100%): 0
 Review (75-89%): 3
-Low Confidence (55-74%): 3
+Low Confidence (55-74%): 2
 No Candidate (0-54%): 0
 --------------------------------------------------------------------------------
 
-Target: Landscape [Slot 1]
-Target Status: Active in Scene
-Hierarchy: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Landscape
-Target Category: Rock
-Environment Context: Water / Lake
-Current Material: Rock
-Candidate: Rock_URP
-Candidate Category: Rock
-Candidate Path: Assets/AILevelBuilder/HD/URPMaterials/Rock_URP.mat
-Confidence: 67%
-Category Score: 30
-Name Score: 20
-Semantic Score: 15
-Texture Score: 0
-Compatibility Score: 15
-Final Score: 67
-Decision: [LOW]
-Reason: Deterministic match (67%). Target [Rock] -> Candidate [Rock]. Source: Assets/AILevelBuilder/HD/URPMaterials/Rock_URP.mat
-
---------------------------------------------------------------------------------
 Target: Tree6 [Slot 0]
 Target Status: Active in Scene
 Hierarchy: AI_GENERATED_LEVEL/HD_REPLACEMENTS_PREVIEW/Water/HD_Ground_RiverApproach/Lake/Tree6

@@ -257,7 +257,7 @@ namespace MonkeyAdventure.AILevelBuilder
 
             if (startMarker == null)
             {
-                LevelMarker[] markers = UnityEngine.Object.FindObjectsByType<LevelMarker>(FindObjectsSortMode.None);
+                LevelMarker[] markers = UnityEngine.Object.FindObjectsByType<LevelMarker>(FindObjectsInactive.Include);
                 foreach (var m in markers)
                 {
                     if (m.MarkerType == LevelMarkerType.Start)
@@ -316,7 +316,7 @@ namespace MonkeyAdventure.AILevelBuilder
 
             if (finishMarker == null)
             {
-                LevelMarker[] markers = UnityEngine.Object.FindObjectsByType<LevelMarker>(FindObjectsSortMode.None);
+                LevelMarker[] markers = UnityEngine.Object.FindObjectsByType<LevelMarker>(FindObjectsInactive.Include);
                 foreach (var m in markers)
                 {
                     if (m.MarkerType == LevelMarkerType.Finish)
