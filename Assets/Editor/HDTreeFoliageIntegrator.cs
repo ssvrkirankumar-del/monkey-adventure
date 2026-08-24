@@ -104,7 +104,6 @@ namespace MonkeyAdventure.EditorTools
             GenerateExecutionReport(treesReplaced, foliageAdded);
 
             _statusMessage = $"✅ Successfully upgraded {treesReplaced} trees and added {foliageAdded} foliage clusters in Level 01!";
-            _statusMessageType = MessageType.Info;
             Debug.Log($"[HDTreeFoliageIntegrator] {_statusMessage}");
         }
 

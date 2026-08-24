@@ -127,7 +127,6 @@ namespace MonkeyAdventure.EditorTools
             if (AssetDatabase.IsValidFolder("Assets/Furry Squirrel")) approvedHDAssets.Add("Furry Squirrel URP (3D Fur Character Model)");
             if (AssetDatabase.IsValidFolder("Assets/ithappy")) approvedHDAssets.Add("ithappy Animals_FREE (3D Wildlife Models)");
 
-            scanPerformed = true;
             BuildSummaryText();
             Repaint();
         }
