@@ -545,11 +545,12 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
                 info.isURP = true;
 
                 // Check for pure white base color without texture (visual risk)
-                Color baseCol = Color.white;
-                if (m.HasProperty("_BaseColor")) baseCol = m.GetColor("_BaseColor");
-                else if (m.HasProperty("_Color")) baseCol = m.GetColor("_Color");
+                bool isSpecialtyShader = ContainsAny(info.shaderName, "Water", "Decal", "Particle", "VFX", "Effect", "Skybox", "Volume", "Hidden/");
+                bool hasColorProp = HasColorProperty(m, "_BaseColor") || HasColorProperty(m, "_Color");
+                Color baseCol = HasColorProperty(m, "_BaseColor") ? m.GetColor("_BaseColor") :
+                                HasColorProperty(m, "_Color") ? m.GetColor("_Color") : Color.clear;
 
-                if (tex == null && baseCol.r > 0.94f && baseCol.g > 0.94f && baseCol.b > 0.94f)
+                if (!isSpecialtyShader && hasColorProp && tex == null && baseCol.r > 0.94f && baseCol.g > 0.94f && baseCol.b > 0.94f)
                 {
                     info.classification = HDVisualAuditClassification.Warning;
                     info.classificationReason = "URP shader but missing BaseMap texture with untextured white albedo.";
@@ -557,7 +558,7 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
                 else
                 {
                     info.classification = HDVisualAuditClassification.Clean;
-                    info.classificationReason = "Valid URP shader with configured properties.";
+                    info.classificationReason = isSpecialtyShader ? $"Valid URP shader graph ({info.shaderName})." : "Valid URP shader with configured properties.";
                 }
             }
             else if (info.shaderName == "Standard" || info.shaderName == "Standard (Specular setup)" || info.shaderName.StartsWith("Legacy Shaders/"))
@@ -823,6 +824,27 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
 
             parts.Reverse();
             return string.Join("/", parts);
+        }
+
+        private static bool ContainsAny(string text, params string[] values)
+        {
+            if (string.IsNullOrEmpty(text)) return false;
+            foreach (var v in values)
+                if (text.IndexOf(v, StringComparison.OrdinalIgnoreCase) >= 0) return true;
+            return false;
+        }
+
+        private static bool HasColorProperty(Material m, string propName)
+        {
+            if (m == null || m.shader == null) return false;
+            Shader s = m.shader;
+            int count = s.GetPropertyCount();
+            for (int i = 0; i < count; i++)
+            {
+                if (s.GetPropertyName(i) == propName)
+                    return s.GetPropertyType(i) == UnityEngine.Rendering.ShaderPropertyType.Color;
+            }
+            return false;
         }
     }
 }

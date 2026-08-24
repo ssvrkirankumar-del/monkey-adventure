@@ -1,0 +1,26 @@
+================================================================================
+HD WHITE TERRAIN RISK DIAGNOSTIC INSPECTION REPORT
+Timestamp: 2026-08-24 22:19:55
+Active Scene: Assets/Scenes/Level01_Awakening.unity
+================================================================================
+
+Total Renderers Under AI_GENERATED_LEVEL: 274
+--------------------------------------------------------------------------------
+[FLAGGED WHITE/UNTEXTURED RISK - Slot #0]
+  Object:          Water_RiverChannel
+  Hierarchy Path:  AI_GENERATED_LEVEL/Environment/Water/Water_RiverChannel
+  Renderer Type:   MeshRenderer
+  Material:        Water Material (Path: Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Water Material.mat)
+  Shader:          Shader Graphs/Water_HDRP
+  Is Terrain Match:True (isTerrain=False, isWater=True, isDecal=False)
+  BaseMap Prop:    False (Tex: null)
+  MainTex Prop:    False (Tex: null)
+  BaseColor Prop:  False (Color: #00000000)
+  Color Prop:      False (Color: #00000000)
+  Legacy Eval Col: #FFFFFFFF (Fallback=Color.white used: True)
+  Assigned Textures: [Texture2D_738140e9a9a14e31a9728991718480c9=Water 1, Texture2D_0c9e7064bd26418694491c63017c6932=Water 2]
+  Color Properties:  [Color_fac0fcd1e2974160ae513ca0e0dd7154=#58B9C800, Color_962d8a6a077646f68b3a30ea8d07c17c=#00648E00, _EmissionColor=#FFFFFFFF]
+
+--------------------------------------------------------------------------------
+Summary: Total Slots Audited = 286, Flagged White Risk Slots = 1
+================================================================================
