@@ -22,7 +22,7 @@ WARNINGS
 CATEGORY REPORT
 [100/100] Ground / Terrain | Found=48 | Issues=0 | Ground-like objects: 48. White/untextured risks: 0. Blue material risks: 0. Final forest floor must not look like a flat green mat.
 [86/100] Mountains / Hills | Found=6 | Issues=0 | Detected 6 relevant object(s). Material, scale, placement and visual integration must be checked.
-[100/100] Vegetation | Found=302 | Issues=0 | Trees 267 | Grass 5 | Ferns 0 | Bushes 3 | Leaf litter 27. (Note: Ferns optional - no HD fern prefab in library). Distribution must vary by zone and preserve a clear player corridor.
+[100/100] Vegetation | Found=302 | Issues=0 | Trees 267 | Grass 5 | Ferns 0 | Bushes 3 | Leaf litter 27. Distribution must vary by zone and preserve a clear player corridor.
 [100/100] Water / River | Found=23 | Issues=0 | Detected 23 relevant object(s). Material, scale, placement and visual integration must be checked.
 [100/100] Ancient Ruins | Found=59 | Issues=0 | Detected 59 relevant object(s). Material, scale, placement and visual integration must be checked.
 [90/100] Lighting / Atmosphere | Found=1 | Issues=0 | Lights: 1, directional lights: 1. Final jungle presentation requires readable shadows and controlled exposure.

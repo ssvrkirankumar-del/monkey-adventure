@@ -390,11 +390,12 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
             EditorGUILayout.Space(8);
             EditorGUILayout.LabelField("🌿 AUTO-DRESSING", EditorStyles.boldLabel);
 
-            string previewPath = FindRoot(PreviewRoot) != null ? "FOUND" : "NOT GENERATED";
-            string appliedPath = FindRoot(AppliedRoot) != null ? "APPLIED" : "NOT APPLIED";
+            GameObject level = ResolveLevelRoot();
+            string previewPath = GetPreviewRoot(level) != null ? "FOUND" : "NOT GENERATED";
+            string appliedPath = GetAppliedRoot(level) != null ? "APPLIED" : "NOT APPLIED";
 
             EditorGUILayout.HelpBox(
-                $"Preview: {previewPath} | Applied: {appliedPath}\n" +
+                $"Level Root: {(level != null ? level.name : "NOT FOUND")} | Preview: {previewPath} | Applied: {appliedPath}\n" +
                 "Order: detect → score → preview → visual QA → explicit apply. " +
                 "No gameplay collider, marker, player corridor or source asset is changed.",
                 MessageType.Info);
@@ -411,11 +412,11 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
         {
             var result = new AuditResult();
 
-            GameObject level = FindRoot(LevelRoot);
+            GameObject level = ResolveLevelRoot();
             if (level == null)
             {
                 result.Overall = 0;
-                result.Critical.Add("AI_GENERATED_LEVEL was not found in the active scene.");
+                result.Critical.Add("No valid Level root (AI_GENERATED_LEVEL or Level01 environment root) found in the active scene.");
                 return result;
             }
 
@@ -640,10 +641,12 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
         {
             ClearPreview();
 
-            GameObject level = FindRoot(LevelRoot);
+            GameObject level = ResolveLevelRoot();
             if (level == null)
             {
-                EditorUtility.DisplayDialog("HD Master Visual QA", "AI_GENERATED_LEVEL not found.", "OK");
+                EditorUtility.DisplayDialog("HD Master Visual QA",
+                    "No valid Level root (AI_GENERATED_LEVEL or Level01 environment root) found in the active scene.",
+                    "OK");
                 return;
             }
 
@@ -655,6 +658,7 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
             }
 
             var root = new GameObject("MASTER_VISUAL_DRESSING_PREVIEW");
+            root.transform.SetParent(level.transform, false);
             Undo.RegisterCreatedObjectUndo(root, "Create Master Dressing Preview");
 
             Transform parent = root.transform;
@@ -682,18 +686,18 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
             target = Mathf.Min(target, Mathf.Max(20, _maxObjects));
 
             int spawned = 0;
-            spawned += SpawnCategory(candidates, "GRASS", "Grass", bounds, target / 4, rng, 0.7f, 1.2f);
-            spawned += SpawnCategory(candidates, "FERN", "Ferns", bounds, target / 7, rng, 0.8f, 1.25f);
-            spawned += SpawnCategory(candidates, "BUSH", "Bushes", bounds, target / 7, rng, 0.85f, 1.25f);
-            spawned += SpawnCategory(candidates, "DEADLEAF", "DeadLeaves", bounds, target / 9, rng, 0.8f, 1.2f);
-            spawned += SpawnCategory(candidates, "ROCK", "Rocks", bounds, target / 10, rng, 0.7f, 1.35f);
-            spawned += SpawnCategory(candidates, "LOG", "Logs", bounds, target / 14, rng, 0.8f, 1.2f);
+            spawned += SpawnCategory(candidates, "GRASS", "Grass", bounds, target / 4, rng, 0.7f, 1.2f, root.transform);
+            spawned += SpawnCategory(candidates, "FERN", "Ferns", bounds, target / 7, rng, 0.8f, 1.25f, root.transform);
+            spawned += SpawnCategory(candidates, "BUSH", "Bushes", bounds, target / 7, rng, 0.85f, 1.25f, root.transform);
+            spawned += SpawnCategory(candidates, "DEADLEAF", "DeadLeaves", bounds, target / 9, rng, 0.8f, 1.2f, root.transform);
+            spawned += SpawnCategory(candidates, "ROCK", "Rocks", bounds, target / 10, rng, 0.7f, 1.35f, root.transform);
+            spawned += SpawnCategory(candidates, "LOG", "Logs", bounds, target / 14, rng, 0.8f, 1.2f, root.transform);
 
             if (_includeWaterEdge)
-                spawned += SpawnCategory(candidates, "WATEREDGE", "WaterEdge", bounds, target / 16, rng, 0.8f, 1.15f);
+                spawned += SpawnCategory(candidates, "WATEREDGE", "WaterEdge", bounds, target / 16, rng, 0.8f, 1.15f, root.transform);
 
             if (_includeRuins)
-                spawned += SpawnCategory(candidates, "ANCIENT", "RuinsAccent", bounds, target / 30, rng, 0.85f, 1.15f);
+                spawned += SpawnCategory(candidates, "ANCIENT", "RuinsAccent", bounds, target / 30, rng, 0.85f, 1.15f, root.transform);
 
             if (spawned == 0)
             {
@@ -721,12 +725,13 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
             int count,
             System.Random rng,
             float minScale,
-            float maxScale)
+            float maxScale,
+            Transform previewRoot)
         {
             var usable = candidates.Where(x => x.Category == category).ToList();
             if (usable.Count == 0 || count <= 0) return 0;
 
-            Transform parent = FindRoot(PreviewRoot)?.transform.Find(childName);
+            Transform parent = previewRoot != null ? previewRoot.Find(childName) : null;
             if (parent == null) return 0;
 
             int spawned = 0;
@@ -859,14 +864,21 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
 
         private void ApplyPreview()
         {
-            GameObject preview = FindRoot(PreviewRoot);
+            GameObject level = ResolveLevelRoot();
+            if (level == null)
+            {
+                EditorUtility.DisplayDialog("HD Master Visual QA", "No valid Level root found in active scene.", "OK");
+                return;
+            }
+
+            GameObject preview = GetPreviewRoot(level);
             if (preview == null)
             {
                 EditorUtility.DisplayDialog("HD Master Visual QA", "Generate the dressing preview first.", "OK");
                 return;
             }
 
-            if (FindRoot(AppliedRoot) != null)
+            if (GetAppliedRoot(level) != null)
             {
                 EditorUtility.DisplayDialog("HD Master Visual QA",
                     "Applied dressing already exists. Rollback it before applying a new preview.",
@@ -876,7 +888,7 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
 
             GameObject applied = Instantiate(preview);
             applied.name = "MASTER_VISUAL_DRESSING";
-            applied.transform.SetParent(preview.transform.parent, false);
+            applied.transform.SetParent(level.transform, false);
 
             foreach (var c in applied.GetComponentsInChildren<Collider>(true))
                 DestroyImmediate(c);
@@ -895,7 +907,8 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
 
         private void RollbackApplied()
         {
-            GameObject applied = FindRoot(AppliedRoot);
+            GameObject level = ResolveLevelRoot();
+            GameObject applied = GetAppliedRoot(level);
             if (applied == null)
             {
                 EditorUtility.DisplayDialog("HD Master Visual QA", "No applied master dressing found.", "OK");
@@ -908,9 +921,20 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
 
         private void ClearPreview()
         {
-            GameObject preview = FindRoot(PreviewRoot);
+            GameObject level = ResolveLevelRoot();
+            GameObject preview = GetPreviewRoot(level);
             if (preview != null)
                 Undo.DestroyObjectImmediate(preview);
+
+            var activeScene = SceneManager.GetActiveScene();
+            if (activeScene.isLoaded)
+            {
+                foreach (var root in activeScene.GetRootGameObjects())
+                {
+                    if (root != null && root.name == "MASTER_VISUAL_DRESSING_PREVIEW")
+                        Undo.DestroyObjectImmediate(root);
+                }
+            }
 
             _previewGenerated = false;
             Repaint();
@@ -998,19 +1022,165 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
             });
         }
 
+        public static GameObject ResolveLevelRoot()
+        {
+            var activeScene = SceneManager.GetActiveScene();
+
+            // 1. Check for AI_GENERATED_LEVEL in active scene root objects
+            if (activeScene.isLoaded)
+            {
+                foreach (GameObject root in activeScene.GetRootGameObjects())
+                {
+                    if (root != null && string.Equals(root.name, "AI_GENERATED_LEVEL", StringComparison.OrdinalIgnoreCase))
+                        return root;
+                }
+            }
+
+            // 2. Global search for AI_GENERATED_LEVEL anywhere in hierarchy
+            GameObject levelGo = GameObject.Find("AI_GENERATED_LEVEL");
+            if (levelGo != null) return levelGo;
+
+            // Check across all loaded scenes root objects for AI_GENERATED_LEVEL
+            for (int s = 0; s < SceneManager.sceneCount; s++)
+            {
+                var scene = SceneManager.GetSceneAt(s);
+                if (!scene.isLoaded) continue;
+                foreach (var r in scene.GetRootGameObjects())
+                {
+                    if (r != null && string.Equals(r.name, "AI_GENERATED_LEVEL", StringComparison.OrdinalIgnoreCase))
+                        return r;
+                }
+            }
+
+            // 3. Fallback: Search for known environment / level roots in active scene
+            string[] candidateNames = new[]
+            {
+                "HD_ENVIRONMENT",
+                "HD_REPLACEMENTS",
+                "Level01_Awakening",
+                "Level_01",
+                "Level01",
+                "Environment",
+                "Level",
+                "World"
+            };
+
+            if (activeScene.isLoaded)
+            {
+                foreach (var candidate in candidateNames)
+                {
+                    foreach (GameObject root in activeScene.GetRootGameObjects())
+                    {
+                        if (root != null && string.Equals(root.name, candidate, StringComparison.OrdinalIgnoreCase))
+                            return root;
+                    }
+                }
+
+                // 4. Fallback: Pick the scene root GameObject that contains environment renderers or level markers
+                GameObject bestRoot = null;
+                int maxRenderers = 0;
+                foreach (GameObject root in activeScene.GetRootGameObjects())
+                {
+                    if (root == null) continue;
+                    if (root.name == "MASTER_VISUAL_DRESSING_PREVIEW" || root.name == "MASTER_VISUAL_DRESSING")
+                        continue;
+
+                    var renderers = root.GetComponentsInChildren<Renderer>(true);
+                    if (renderers.Length > maxRenderers)
+                    {
+                        maxRenderers = renderers.Length;
+                        bestRoot = root;
+                    }
+                }
+
+                if (bestRoot != null && maxRenderers > 0)
+                    return bestRoot;
+
+                // 5. Fallback: First root in active scene
+                var roots = activeScene.GetRootGameObjects();
+                if (roots != null && roots.Length > 0)
+                    return roots[0];
+            }
+
+            return null;
+        }
+
+        private static GameObject GetPreviewRoot(GameObject levelRoot)
+        {
+            if (levelRoot != null)
+            {
+                Transform t = levelRoot.transform.Find("MASTER_VISUAL_DRESSING_PREVIEW");
+                if (t != null) return t.gameObject;
+            }
+
+            var activeScene = SceneManager.GetActiveScene();
+            if (activeScene.isLoaded)
+            {
+                foreach (var root in activeScene.GetRootGameObjects())
+                {
+                    if (root != null && root.name == "MASTER_VISUAL_DRESSING_PREVIEW")
+                        return root;
+                }
+            }
+
+            return GameObject.Find("MASTER_VISUAL_DRESSING_PREVIEW");
+        }
+
+        private static GameObject GetAppliedRoot(GameObject levelRoot)
+        {
+            if (levelRoot != null)
+            {
+                Transform t = levelRoot.transform.Find("MASTER_VISUAL_DRESSING");
+                if (t != null) return t.gameObject;
+            }
+
+            var activeScene = SceneManager.GetActiveScene();
+            if (activeScene.isLoaded)
+            {
+                foreach (var root in activeScene.GetRootGameObjects())
+                {
+                    if (root != null && root.name == "MASTER_VISUAL_DRESSING")
+                        return root;
+                }
+            }
+
+            return GameObject.Find("MASTER_VISUAL_DRESSING");
+        }
+
         private static GameObject FindRoot(string path)
         {
+            if (string.IsNullOrEmpty(path)) return null;
+
+            if (path == LevelRoot || string.Equals(path, "AI_GENERATED_LEVEL", StringComparison.OrdinalIgnoreCase))
+                return ResolveLevelRoot();
+
+            if (path.StartsWith("AI_GENERATED_LEVEL/"))
+            {
+                string sub = path.Substring("AI_GENERATED_LEVEL/".Length);
+                GameObject level = ResolveLevelRoot();
+                if (level == null) return null;
+                Transform child = level.transform.Find(sub);
+                return child != null ? child.gameObject : null;
+            }
+
             string[] parts = path.Split('/');
             GameObject current = null;
 
-            foreach (GameObject root in SceneManager.GetActiveScene().GetRootGameObjects())
+            var activeScene = SceneManager.GetActiveScene();
+            if (activeScene.isLoaded)
             {
-                if (root.name == parts[0])
+                foreach (GameObject root in activeScene.GetRootGameObjects())
                 {
-                    current = root;
-                    break;
+                    if (root != null && string.Equals(root.name, parts[0], StringComparison.OrdinalIgnoreCase))
+                    {
+                        current = root;
+                        break;
+                    }
                 }
             }
+
+            if (current == null)
+                current = GameObject.Find(parts[0]);
 
             if (current == null) return null;
 
@@ -1118,6 +1288,24 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
             window.RunFullQA();
             DestroyImmediate(window);
             Debug.Log("<color=#00FF88><b>[HDEnvironmentMasterVisualQA] Master Visual QA Complete and Report Saved!</b></color>");
+        }
+
+        [MenuItem("Window/Monkey Adventure/Generate Dressing Preview (Test Run)", false, 143)]
+        public static void RunGeneratePreviewHeadless()
+        {
+            var window = CreateInstance<HDEnvironmentMasterVisualQA>();
+            window.GeneratePreview();
+            DestroyImmediate(window);
+            Debug.Log("<color=#00FF88><b>[HDEnvironmentMasterVisualQA] Generate Dressing Preview executed successfully!</b></color>");
+        }
+
+        [MenuItem("Window/Monkey Adventure/Clear Dressing Preview (Test Run)", false, 144)]
+        public static void RunClearPreviewHeadless()
+        {
+            var window = CreateInstance<HDEnvironmentMasterVisualQA>();
+            window.ClearPreview();
+            DestroyImmediate(window);
+            Debug.Log("<color=#00FF88><b>[HDEnvironmentMasterVisualQA] Clear Dressing Preview executed successfully!</b></color>");
         }
 
         private static GUIStyle MakeHeaderStyle(int size)
