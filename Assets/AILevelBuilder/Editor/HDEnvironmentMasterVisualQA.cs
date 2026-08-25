@@ -776,6 +776,7 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
                 instance.transform.localScale *= scale;
 
                 StripGameplayRisk(instance);
+                EnsureValidPreviewMaterials(instance, category);
                 spawned++;
             }
 
@@ -956,6 +957,107 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
                 if (ContainsAny(n, "player", "enemy", "damage", "pickup", "collectible", "checkpoint", "weapon"))
                     DestroyImmediate(behaviour);
             }
+        }
+
+        private static Material _matFoliageURP;
+        private static Material _matStoneURP;
+        private static Material _matStumpURP;
+        private static Material _matWaterURP;
+
+        private static void LoadURPMaterialsCache()
+        {
+            if (_matFoliageURP == null)
+                _matFoliageURP = AssetDatabase.LoadAssetAtPath<Material>("Assets/AILevelBuilder/HD/URPMaterials/forestpack_foliage_URP.mat");
+            if (_matStoneURP == null)
+                _matStoneURP = AssetDatabase.LoadAssetAtPath<Material>("Assets/AILevelBuilder/HD/URPMaterials/forestpack_stone_URP.mat");
+            if (_matStumpURP == null)
+                _matStumpURP = AssetDatabase.LoadAssetAtPath<Material>("Assets/AILevelBuilder/HD/URPMaterials/forestpack_treeStumpAndRoot_URP.mat");
+            if (_matWaterURP == null)
+                _matWaterURP = AssetDatabase.LoadAssetAtPath<Material>("Assets/AILevelBuilder/HD/URPMaterials/Water Material_URP.mat");
+        }
+
+        private static void EnsureValidPreviewMaterials(GameObject instance, string category)
+        {
+            if (instance == null) return;
+            LoadURPMaterialsCache();
+
+            foreach (var r in instance.GetComponentsInChildren<Renderer>(true))
+            {
+                if (r == null) continue;
+
+                var mats = r.sharedMaterials;
+                if (mats == null || mats.Length == 0)
+                {
+                    Material fallback = ResolveFallbackURPMaterial(category, instance.name, r.gameObject.name, null);
+                    if (fallback != null)
+                        r.sharedMaterials = new[] { fallback };
+                    continue;
+                }
+
+                bool changed = false;
+                for (int i = 0; i < mats.Length; i++)
+                {
+                    Material m = mats[i];
+                    bool needsReplacement = false;
+
+                    if (m == null)
+                    {
+                        needsReplacement = true;
+                    }
+                    else if (m.shader == null)
+                    {
+                        needsReplacement = true;
+                    }
+                    else
+                    {
+                        string sName = m.shader.name;
+                        if (sName.IndexOf("Universal Render Pipeline", StringComparison.OrdinalIgnoreCase) < 0 &&
+                            sName.IndexOf("Shader Graph", StringComparison.OrdinalIgnoreCase) < 0)
+                        {
+                            needsReplacement = true;
+                        }
+                    }
+
+                    if (needsReplacement)
+                    {
+                        Material targetMat = ResolveFallbackURPMaterial(category, instance.name, r.gameObject.name, m);
+                        if (targetMat != null)
+                        {
+                            mats[i] = targetMat;
+                            changed = true;
+                        }
+                    }
+                }
+
+                if (changed)
+                {
+                    r.sharedMaterials = mats;
+                }
+            }
+        }
+
+        private static Material ResolveFallbackURPMaterial(string category, string instanceName, string rendererName, Material currentMat)
+        {
+            string hint = (category + " " + instanceName + " " + rendererName + " " + (currentMat != null ? currentMat.name : "")).ToLowerInvariant();
+
+            if (hint.Contains("water") || hint.Contains("cascade") || hint.Contains("surface"))
+            {
+                if (_matWaterURP != null) return _matWaterURP;
+            }
+
+            if (hint.Contains("grass") || hint.Contains("bush") || hint.Contains("leaf") || hint.Contains("foliage") || hint.Contains("fern") || hint.Contains("deadleaf") || hint.Contains("litter"))
+            {
+                if (_matFoliageURP != null) return _matFoliageURP;
+            }
+
+            if (hint.Contains("stump") || hint.Contains("log") || hint.Contains("wood") || hint.Contains("trunk") || hint.Contains("root") || hint.Contains("bark"))
+            {
+                if (_matStumpURP != null) return _matStumpURP;
+            }
+
+            if (_matStoneURP != null) return _matStoneURP;
+            if (_matFoliageURP != null) return _matFoliageURP;
+            return null;
         }
 
         private static bool TryProjectToGround(Vector3 origin, out Vector3 hit)

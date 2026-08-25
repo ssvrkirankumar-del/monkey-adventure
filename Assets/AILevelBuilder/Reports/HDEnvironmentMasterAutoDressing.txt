@@ -1,0 +1,9 @@
+HD ENVIRONMENT MASTER AUTO-DRESSING REPORT
+==========================================
+Root: AI_GENERATED_LEVEL/MASTER_VISUAL_DRESSING_PREVIEW
+Objects/Transforms: 160
+Candidate prefabs discovered: 17
+Seed: 1337
+Source assets modified: NO
+Gameplay colliders preserved: YES
+Preview-first workflow: YES

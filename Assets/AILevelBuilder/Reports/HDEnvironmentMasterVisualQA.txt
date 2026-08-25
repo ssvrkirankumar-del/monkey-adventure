@@ -1,9 +1,9 @@
 HD ENVIRONMENT MASTER VISUAL QA REPORT
 =======================================
-Overall: 96/100
+Overall: 90/100
 
 SCORES
-Materials: 100
+Materials: 60
 Terrain: 100
 Vegetation: 100
 Mountains: 86
@@ -12,20 +12,20 @@ Ruins: 100
 Lighting: 90
 Composition: 90
 Gameplay: 95
-Performance: 88
+Performance: 75
 
 CRITICAL
+- Material compatibility/missing issues detected: 160 slots.
 
 WARNINGS
-- Vegetation category 'Ferns' has no mapped HD assets in library (Found: Trees, Grass, Bushes, Leaf litter). Informational only.
 
 CATEGORY REPORT
-[100/100] Ground / Terrain | Found=48 | Issues=0 | Ground-like objects: 48. White/untextured risks: 0. Blue material risks: 0. Final forest floor must not look like a flat green mat.
+[100/100] Ground / Terrain | Found=49 | Issues=0 | Ground-like objects: 49. White/untextured risks: 0. Blue material risks: 0. Final forest floor must not look like a flat green mat.
 [86/100] Mountains / Hills | Found=6 | Issues=0 | Detected 6 relevant object(s). Material, scale, placement and visual integration must be checked.
-[100/100] Vegetation | Found=302 | Issues=0 | Trees 267 | Grass 5 | Ferns 0 | Bushes 3 | Leaf litter 27. Distribution must vary by zone and preserve a clear player corridor.
-[100/100] Water / River | Found=23 | Issues=0 | Detected 23 relevant object(s). Material, scale, placement and visual integration must be checked.
-[100/100] Ancient Ruins | Found=59 | Issues=0 | Detected 59 relevant object(s). Material, scale, placement and visual integration must be checked.
+[100/100] Vegetation | Found=418 | Issues=0 | Trees 269 | Grass 61 | Ferns 1 | Bushes 35 | Leaf litter 52. Distribution must vary by zone and preserve a clear player corridor.
+[100/100] Water / River | Found=37 | Issues=0 | Detected 37 relevant object(s). Material, scale, placement and visual integration must be checked.
+[100/100] Ancient Ruins | Found=87 | Issues=0 | Detected 87 relevant object(s). Material, scale, placement and visual integration must be checked.
 [90/100] Lighting / Atmosphere | Found=1 | Issues=0 | Lights: 1, directional lights: 1. Final jungle presentation requires readable shadows and controlled exposure.
 [95/100] Gameplay Safety | Found=62 | Issues=0 | Gameplay-related markers/objects detected: 62. Visual dressing must stay outside the player safety corridor.
-[90/100] Composition | Found=274 | Issues=0 | Resolved level bounds 256.8m x 265.5m. Composition is evaluated as a whole, not by isolated assets.
-[88/100] Performance | Found=232 | Issues=0 | Environment renderers: 232. Dressing uses a hard object cap and deterministic spacing.
+[90/100] Composition | Found=434 | Issues=0 | Resolved level bounds 269.4m x 300.4m. Composition is evaluated as a whole, not by isolated assets.
+[75/100] Performance | Found=392 | Issues=0 | Environment renderers: 392. Dressing uses a hard object cap and deterministic spacing.
