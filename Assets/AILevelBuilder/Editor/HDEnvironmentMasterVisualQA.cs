@@ -1038,21 +1038,38 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
 
         private static Material ResolveFallbackURPMaterial(string category, string instanceName, string rendererName, Material currentMat)
         {
-            string hint = (category + " " + instanceName + " " + rendererName + " " + (currentMat != null ? currentMat.name : "")).ToLowerInvariant();
+            string inst = (instanceName ?? "").ToLowerInvariant();
+            string rend = (rendererName ?? "").ToLowerInvariant();
+            string cat = (category ?? "").ToLowerInvariant();
 
-            if (hint.Contains("water") || hint.Contains("cascade") || hint.Contains("surface"))
+            // 1. Check if it's rock/stone (including river rocks placed under water edge)
+            if (inst.Contains("rock") || inst.Contains("stone") || inst.Contains("pillar") || inst.Contains("arch") ||
+                rend.Contains("rock") || rend.Contains("stone") || cat.Contains("rock") || cat.Contains("ancient"))
             {
-                if (_matWaterURP != null) return _matWaterURP;
+                if (_matStoneURP != null) return _matStoneURP;
             }
 
-            if (hint.Contains("grass") || hint.Contains("bush") || hint.Contains("leaf") || hint.Contains("foliage") || hint.Contains("fern") || hint.Contains("deadleaf") || hint.Contains("litter"))
+            // 2. Check if it's wood / log / stump / trunk / root
+            if (inst.Contains("stump") || inst.Contains("log") || inst.Contains("wood") || inst.Contains("trunk") || inst.Contains("root") || inst.Contains("bark") ||
+                rend.Contains("stump") || rend.Contains("log") || rend.Contains("wood") || cat.Contains("log"))
+            {
+                if (_matStumpURP != null) return _matStumpURP;
+            }
+
+            // 3. Check if it's foliage / grass / bush / leaf / fern / litter
+            if (inst.Contains("grass") || inst.Contains("bush") || inst.Contains("leaf") || inst.Contains("leaves") || inst.Contains("deadleaf") || inst.Contains("litter") || inst.Contains("foliage") || inst.Contains("fern") ||
+                rend.Contains("grass") || rend.Contains("bush") || rend.Contains("leaf") || rend.Contains("leaves") || cat.Contains("grass") || cat.Contains("bush") || cat.Contains("deadleaf") || cat.Contains("fern"))
             {
                 if (_matFoliageURP != null) return _matFoliageURP;
             }
 
-            if (hint.Contains("stump") || hint.Contains("log") || hint.Contains("wood") || hint.Contains("trunk") || hint.Contains("root") || hint.Contains("bark"))
+            // 4. Check if it's water surface / cascade
+            if (inst.Contains("water") || inst.Contains("cascade") || inst.Contains("surface") ||
+                rend.Contains("water") || rend.Contains("cascade") || cat.Contains("wateredge"))
             {
-                if (_matStumpURP != null) return _matStumpURP;
+                var waterMat = AssetDatabase.LoadAssetAtPath<Material>("Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Water Material.mat");
+                if (waterMat != null) return waterMat;
+                if (_matWaterURP != null) return _matWaterURP;
             }
 
             if (_matStoneURP != null) return _matStoneURP;
@@ -1365,8 +1382,11 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
         {
             if (m == null || m.shader == null) return false;
             string shaderName = m.shader.name;
+            string matName = m.name;
+
             // Ignore non-diffuse, utility, water, decal, or VFX materials
-            if (ContainsAny(shaderName, "Decal", "Water", "Particle", "VFX", "Effect", "Skybox", "Volume", "Hidden/"))
+            if (ContainsAny(shaderName, "Decal", "Water", "Particle", "VFX", "Effect", "Skybox", "Volume", "Hidden/") ||
+                ContainsAny(matName, "Water", "Waterfall", "Cascade", "Decal", "Particle", "VFX", "Effect", "Fog", "Snow"))
                 return false;
 
             // If material has an assigned diffuse or base texture, it is not untextured
