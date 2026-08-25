@@ -284,6 +284,11 @@ namespace MonkeyAdventure.Editor
                     for (int i = 0; i < cpFolder.childCount; i++)
                     {
                         Transform cpT = cpFolder.GetChild(i);
+                        BoxCollider bc = cpT.GetComponent<BoxCollider>();
+                        if (bc == null) bc = cpT.gameObject.AddComponent<BoxCollider>();
+                        bc.isTrigger = true;
+                        bc.size = new Vector3(6f, 4f, 6f);
+
                         Checkpoint cp = cpT.GetComponent<Checkpoint>();
                         if (cp == null) cp = cpT.gameObject.AddComponent<Checkpoint>();
 
@@ -291,11 +296,6 @@ namespace MonkeyAdventure.Editor
                         cpSo.FindProperty("activationSound").objectReferenceValue = sfxCheckpoint;
                         cpSo.FindProperty("activationBurstVFXPrefab").objectReferenceValue = vfxCheckpointBeam;
                         cpSo.ApplyModifiedProperties();
-
-                        BoxCollider bc = cpT.GetComponent<BoxCollider>();
-                        if (bc == null) bc = cpT.gameObject.AddComponent<BoxCollider>();
-                        bc.isTrigger = true;
-                        bc.size = new Vector3(6f, 4f, 6f);
                     }
                 }
 
@@ -303,6 +303,11 @@ namespace MonkeyAdventure.Editor
                 GameObject startCp = GameObject.Find("Checkpoint_01_Start");
                 if (startCp != null)
                 {
+                    BoxCollider bc = startCp.GetComponent<BoxCollider>();
+                    if (bc == null) bc = startCp.AddComponent<BoxCollider>();
+                    bc.isTrigger = true;
+                    bc.size = new Vector3(6f, 4f, 6f);
+
                     Checkpoint cp = startCp.GetComponent<Checkpoint>();
                     if (cp == null) cp = startCp.AddComponent<Checkpoint>();
 
@@ -320,6 +325,12 @@ namespace MonkeyAdventure.Editor
                     {
                         Transform enemyT = enemyFolder.GetChild(i);
                         enemyT.gameObject.tag = "Enemy";
+
+                        CapsuleCollider cc = enemyT.GetComponent<CapsuleCollider>();
+                        if (cc == null) cc = enemyT.gameObject.AddComponent<CapsuleCollider>();
+                        cc.radius = 0.6f;
+                        cc.height = 1.8f;
+                        cc.center = new Vector3(0f, 0.9f, 0f);
 
                         EnemyAI eai = enemyT.GetComponent<EnemyAI>();
                         if (eai == null) eai = enemyT.gameObject.AddComponent<EnemyAI>();
@@ -340,12 +351,6 @@ namespace MonkeyAdventure.Editor
                         eaiSo.FindProperty("deathVFXPrefab").objectReferenceValue = vfxDeathBurst;
                         eaiSo.FindProperty("attackHitVFX").objectReferenceValue = vfxImpactSparks;
                         eaiSo.ApplyModifiedProperties();
-
-                        CapsuleCollider cc = enemyT.GetComponent<CapsuleCollider>();
-                        if (cc == null) cc = enemyT.gameObject.AddComponent<CapsuleCollider>();
-                        cc.radius = 0.6f;
-                        cc.height = 1.8f;
-                        cc.center = new Vector3(0f, 0.9f, 0f);
 
                         // If placeholder has no visual mesh child, instantiate predator model
                         if (enemyT.childCount == 0 && enemyPredatorPrefab != null)
