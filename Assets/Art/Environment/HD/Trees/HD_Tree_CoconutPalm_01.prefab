@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276116095696165324}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.25576288, y: 0.32006478, z: -0.15524378, w: 0.8989123}
+  m_LocalRotation: {x: 0.26202598, y: 0.28222638, z: -0.14442177, w: 0.91150045}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.95, y: 0.95, z: 0.95}
   m_ConstrainProportionsScale: 0
@@ -116,7 +116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961239649523586581}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.26675692, y: 0.24855812, z: -0.006487645, w: -0.93113774}
+  m_LocalRotation: {x: -0.26643524, y: 0.2768248, z: -0.014615692, w: -0.9231288}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.96, y: 0.96, z: 0.96}
   m_ConstrainProportionsScale: 0
@@ -206,7 +206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2524972129676044737}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.13482878, y: 0.91568315, z: -0.18187186, w: 0.33206674}
+  m_LocalRotation: {x: 0.12849224, y: 0.9265648, z: -0.18640256, w: 0.300369}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.02, y: 1.02, z: 1.02}
   m_ConstrainProportionsScale: 0
@@ -296,7 +296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2970781290653302087}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.16625108, y: 0.58099365, z: -0.03821171, w: 0.79583097}
+  m_LocalRotation: {x: 0.1680584, y: 0.5375538, z: -0.029256284, w: 0.82579446}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
   m_ConstrainProportionsScale: 0
@@ -386,7 +386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3494024955484893473}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.15652573, y: 0.57837355, z: -0.19576082, w: -0.77631277}
+  m_LocalRotation: {x: -0.16116226, y: 0.55964404, z: -0.1919618, w: -0.7899216}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -476,7 +476,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3921110554158281192}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14624983, y: 0.7745273, z: -0.3151449, w: 0.5285851}
+  m_LocalRotation: {x: 0.14944993, y: 0.76910704, z: -0.31363994, w: 0.5364412}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 0
@@ -607,7 +607,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5097078353410607805}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0526179, y: 0.9586174, z: -0.2780897, w: 0.030825693}
+  m_LocalRotation: {x: -0.062749684, y: 0.95910347, z: -0.2759801, w: -0.0042419815}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.98, y: 0.98, z: 0.98}
   m_ConstrainProportionsScale: 0
@@ -697,7 +697,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5363330344541180349}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.031227227, y: 0.9543826, z: -0.14409062, w: -0.2596472}
+  m_LocalRotation: {x: 0.02802286, y: 0.9483873, z: -0.14474794, w: -0.2807564}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
   m_ConstrainProportionsScale: 0
@@ -877,7 +877,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7768525201736006611}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.19045305, y: -0.011750139, z: 0.06817153, w: 0.979256}
+  m_LocalRotation: {x: 0.1910942, y: -0.0024155166, z: 0.06635307, w: 0.9793235}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -967,7 +967,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8338740736912522994}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.23764473, y: 0.7660587, z: -0.23098496, w: -0.55074954}
+  m_LocalRotation: {x: -0.23676212, y: 0.7681533, z: -0.23188947, w: -0.5478242}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.92, y: 0.92, z: 0.92}
   m_ConstrainProportionsScale: 0

@@ -27,18 +27,10 @@ namespace MonkeyAdventure.Editor
     /// audio clips, VFX, player controller, camera, enemies, hazards, collectibles,
     /// checkpoints, level completion portal, and HUD in one deterministic pass.
     /// </summary>
-    [InitializeOnLoad]
     public static class Level01ProductionFinalizer
     {
         private const string SCENE_PATH = "Assets/Scenes/Level01_Awakening.unity";
-
-        static Level01ProductionFinalizer()
-        {
-            EditorApplication.delayCall += () =>
-            {
-                FinalizeLevel01Headless();
-            };
-        }
+        private static bool _isRunning = false;
 
         [MenuItem("Monkey Adventure/Finalize Level 01 Production", false, 10)]
         public static void FinalizeLevel01Menu()
@@ -53,13 +45,22 @@ namespace MonkeyAdventure.Editor
 
         private static void FinalizeLevel01Internal(bool interactive)
         {
-            Debug.Log("<color=#00FFAA><b>[Level01ProductionFinalizer] Starting Master Production Finalization Pass...</b></color>");
-
-            Scene activeScene = SceneManager.GetActiveScene();
-            if (activeScene.path != SCENE_PATH)
+            if (_isRunning)
             {
-                activeScene = EditorSceneManager.OpenScene(SCENE_PATH, OpenSceneMode.Single);
+                Debug.LogWarning("[Level01ProductionFinalizer] Finalization pass already in progress. Ignoring re-entrant call.");
+                return;
             }
+
+            _isRunning = true;
+            try
+            {
+                Debug.Log("<color=#00FFAA><b>[Level01ProductionFinalizer] Starting Master Production Finalization Pass...</b></color>");
+
+                Scene activeScene = SceneManager.GetActiveScene();
+                if (activeScene.path != SCENE_PATH)
+                {
+                    activeScene = EditorSceneManager.OpenScene(SCENE_PATH, OpenSceneMode.Single);
+                }
 
             // Load shared assets
             AudioClip sfxJump = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Art/Audio/SFX_Jump.wav");
@@ -370,6 +371,12 @@ namespace MonkeyAdventure.Editor
                     Transform finishGateway = finishFolder.Find("Finish_Gateway");
                     if (finishGateway != null)
                     {
+                        BoxCollider bc = finishGateway.GetComponent<BoxCollider>();
+                        if (bc == null) bc = finishGateway.gameObject.AddComponent<BoxCollider>();
+                        bc.isTrigger = true;
+                        bc.size = new Vector3(4f, 4f, 4f);
+                        bc.center = new Vector3(0f, 2f, 0f);
+
                         LevelExitPortal lep = finishGateway.GetComponent<LevelExitPortal>();
                         if (lep == null) lep = finishGateway.gameObject.AddComponent<LevelExitPortal>();
 
@@ -379,12 +386,6 @@ namespace MonkeyAdventure.Editor
                         lepSo.FindProperty("rotatePortal").boolValue = true;
                         lepSo.FindProperty("rotationSpeed").floatValue = 45.0f;
                         lepSo.ApplyModifiedProperties();
-
-                        BoxCollider bc = finishGateway.GetComponent<BoxCollider>();
-                        if (bc == null) bc = finishGateway.gameObject.AddComponent<BoxCollider>();
-                        bc.isTrigger = true;
-                        bc.size = new Vector3(4f, 4f, 4f);
-                        bc.center = new Vector3(0f, 2f, 0f);
                     }
                 }
             }
@@ -393,6 +394,11 @@ namespace MonkeyAdventure.Editor
             GameObject completeGateway = GameObject.Find("Level_01_Complete_Gateway");
             if (completeGateway != null)
             {
+                BoxCollider bc = completeGateway.GetComponent<BoxCollider>();
+                if (bc == null) bc = completeGateway.AddComponent<BoxCollider>();
+                bc.isTrigger = true;
+                bc.size = new Vector3(4f, 4f, 4f);
+
                 LevelExitPortal lep = completeGateway.GetComponent<LevelExitPortal>();
                 if (lep == null) lep = completeGateway.AddComponent<LevelExitPortal>();
 
@@ -400,11 +406,6 @@ namespace MonkeyAdventure.Editor
                 lepSo.FindProperty("completionScore").intValue = 100;
                 lepSo.FindProperty("levelCompleteSound").objectReferenceValue = sfxLevelComplete;
                 lepSo.ApplyModifiedProperties();
-
-                BoxCollider bc = completeGateway.GetComponent<BoxCollider>();
-                if (bc == null) bc = completeGateway.AddComponent<BoxCollider>();
-                bc.isTrigger = true;
-                bc.size = new Vector3(4f, 4f, 4f);
             }
 
             // 9. HAZARDS CONFIGURATION
@@ -469,6 +470,11 @@ namespace MonkeyAdventure.Editor
                 EditorUtility.DisplayDialog("Monkey Adventure",
                     "Level 01: The Awakening Final Production Pass Completed!\n\nAll player, camera, manager, audio, collectible, hazard, checkpoint, enemy, portal, and HUD systems are 100% configured and saved.",
                     "OK");
+            }
+            }
+            finally
+            {
+                _isRunning = false;
             }
         }
 
