@@ -882,25 +882,23 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
                 return;
             }
 
-            if (GetAppliedRoot(level) != null)
-            {
-                EditorUtility.DisplayDialog("HD Master Visual QA",
-                    "Applied dressing already exists. Rollback it before applying a new preview.",
-                    "OK");
-                return;
-            }
+            GameObject existingApplied = GetAppliedRoot(level);
+            if (existingApplied != null && existingApplied != preview)
+                Undo.DestroyObjectImmediate(existingApplied);
 
-            GameObject applied = Instantiate(preview);
-            applied.name = "MASTER_VISUAL_DRESSING";
-            applied.transform.SetParent(level.transform, false);
+            // Convert preview directly into applied dressing with zero duplication
+            Undo.RegisterFullObjectHierarchyUndo(preview, "Apply Master Visual Dressing");
+            preview.name = "MASTER_VISUAL_DRESSING";
+            preview.transform.SetParent(level.transform, false);
 
-            foreach (var c in applied.GetComponentsInChildren<Collider>(true))
+            foreach (var c in preview.GetComponentsInChildren<Collider>(true))
                 DestroyImmediate(c);
 
-            StripGameplayRisk(applied);
+            StripGameplayRisk(preview);
 
-            Undo.RegisterCreatedObjectUndo(applied, "Apply Master Visual Dressing");
-            SaveDressingReport(applied, applied.GetComponentsInChildren<Transform>(true).Length, DiscoverCandidates(), _seed);
+            SaveDressingReport(preview, preview.GetComponentsInChildren<Transform>(true).Length, DiscoverCandidates(), _seed);
+
+            _previewGenerated = false;
 
             EditorUtility.DisplayDialog("HD Master Visual QA",
                 "Master visual dressing applied.\nGameplay geometry and source assets were preserved.",
