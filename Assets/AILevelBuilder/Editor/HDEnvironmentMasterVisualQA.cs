@@ -73,7 +73,7 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
         private Density _density = Density.Medium;
         private int _seed = 1337;
         private float _safetyMargin = 3.5f;
-        private int _maxObjects = 300;
+        private int _maxObjects = 140;
         private bool _useOnlyHDAssets = true;
         private bool _includeGroundVariation = true;
         private bool _includeWaterEdge = true;
@@ -650,6 +650,11 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
                 return;
             }
 
+            // Remove any previously applied dressing container so previews do not accumulate duplicate renderers
+            GameObject existingApplied = GetAppliedRoot(level);
+            if (existingApplied != null)
+                Undo.DestroyObjectImmediate(existingApplied);
+
             Bounds bounds;
             if (!TryGetLevelBounds(level, out bounds))
             {
@@ -682,22 +687,22 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
             }
 
             System.Random rng = new System.Random(_seed);
-            int target = _density == Density.Low ? 120 : _density == Density.Medium ? 220 : 300;
+            int target = _density == Density.Low ? 90 : _density == Density.Medium ? 130 : 160;
             target = Mathf.Min(target, Mathf.Max(20, _maxObjects));
 
             int spawned = 0;
             spawned += SpawnCategory(candidates, "GRASS", "Grass", bounds, target / 4, rng, 0.7f, 1.2f, root.transform);
             spawned += SpawnCategory(candidates, "FERN", "Ferns", bounds, target / 7, rng, 0.8f, 1.25f, root.transform);
             spawned += SpawnCategory(candidates, "BUSH", "Bushes", bounds, target / 7, rng, 0.85f, 1.25f, root.transform);
-            spawned += SpawnCategory(candidates, "DEADLEAF", "DeadLeaves", bounds, target / 9, rng, 0.8f, 1.2f, root.transform);
+            spawned += SpawnCategory(candidates, "DEADLEAF", "DeadLeaves", bounds, target / 10, rng, 0.8f, 1.2f, root.transform);
             spawned += SpawnCategory(candidates, "ROCK", "Rocks", bounds, target / 10, rng, 0.7f, 1.35f, root.transform);
             spawned += SpawnCategory(candidates, "LOG", "Logs", bounds, target / 14, rng, 0.8f, 1.2f, root.transform);
 
             if (_includeWaterEdge)
-                spawned += SpawnCategory(candidates, "WATEREDGE", "WaterEdge", bounds, target / 16, rng, 0.8f, 1.15f, root.transform);
+                spawned += SpawnCategory(candidates, "WATEREDGE", "WaterEdge", bounds, target / 14, rng, 0.8f, 1.15f, root.transform);
 
             if (_includeRuins)
-                spawned += SpawnCategory(candidates, "ANCIENT", "RuinsAccent", bounds, target / 30, rng, 0.85f, 1.15f, root.transform);
+                spawned += SpawnCategory(candidates, "ANCIENT", "RuinsAccent", bounds, target / 25, rng, 0.85f, 1.15f, root.transform);
 
             if (spawned == 0)
             {
