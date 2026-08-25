@@ -736,23 +736,21 @@ namespace MonkeyAdventure.AILevelBuilder.Editor
 
             int spawned = 0;
             int attempts = 0;
-            float halfWidth = bounds.extents.x;
-            float halfLength = bounds.extents.z;
+            float minX = Mathf.Max(bounds.min.x, -35f);
+            float maxX = Mathf.Min(bounds.max.x, 35f);
+            float minZ = Mathf.Max(bounds.min.z, 0f);
+            float maxZ = Mathf.Min(bounds.max.z, 205f);
 
-            while (spawned < count && attempts < count * 8)
+            while (spawned < count && attempts < count * 10)
             {
                 attempts++;
 
-                float x = Mathf.Lerp(bounds.min.x, bounds.max.x, (float)rng.NextDouble());
-                float z = Mathf.Lerp(bounds.min.z, bounds.max.z, (float)rng.NextDouble());
+                // Sample evenly across the playable level corridor
+                float x = Mathf.Lerp(minX, maxX, (float)rng.NextDouble());
+                float z = Mathf.Lerp(minZ, maxZ, (float)rng.NextDouble());
 
-                // Keep a hard gameplay corridor.
+                // Keep a hard gameplay corridor along the central path.
                 if (Mathf.Abs(x) < _safetyMargin)
-                    continue;
-
-                // Keep most dressing on outer bands so the player route remains readable.
-                float normalizedX = halfWidth <= 0.01f ? 0.5f : Mathf.Abs(x - bounds.center.x) / halfWidth;
-                if (normalizedX < 0.45f && category != "WATEREDGE")
                     continue;
 
                 Vector3 pos = new Vector3(x, bounds.max.y + 50f, z);

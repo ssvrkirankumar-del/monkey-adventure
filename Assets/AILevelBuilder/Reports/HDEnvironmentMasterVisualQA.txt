@@ -1,9 +1,9 @@
 HD ENVIRONMENT MASTER VISUAL QA REPORT
 =======================================
-Overall: 92/100
+Overall: 96/100
 
 SCORES
-Materials: 74
+Materials: 100
 Terrain: 100
 Vegetation: 100
 Mountains: 86
@@ -15,7 +15,6 @@ Gameplay: 95
 Performance: 75
 
 CRITICAL
-- White/untextured visual risk detected: 13 slots.
 
 WARNINGS
 
